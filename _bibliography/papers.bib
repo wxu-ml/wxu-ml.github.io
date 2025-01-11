@@ -120,12 +120,17 @@
   abbr={AAAI},
   volume={38},
   number={4},
+  code={https://github.com/wangxu-scu/DiDA},
+  html={https://ojs.aaai.org/index.php/AAAI/article/view/28150},
+  abstract={Driven by generative AI and the Internet, there is an increasing availability of a wide variety of images, leading to the significant and popular task of cross-domain image retrieval. To reduce annotation costs and increase performance, this paper focuses on an untouched but challenging problem, i.e., cross-domain image retrieval with partial labels (PCIR). Specifically, PCIR faces great challenges due to the ambiguous supervision signal and the domain gap. To address these challenges, we propose a novel method called disambiguated domain alignment (DiDA) for cross-domain retrieval with partial labels. In detail, DiDA elaborates a novel prototype-score unitization learning mechanism (PSUL) to extract common discriminative representations by simultaneously disambiguating the partial labels and narrowing the domain gap. Additionally, DiDA proposes a prototype-based domain alignment mechanism (PBDA) to further bridge the inherent cross-domain discrepancy. Attributed to PSUL and PBDA, our DiDA effectively excavates domain-invariant discrimination for cross-domain image retrieval. We demonstrate the effectiveness of DiDA through comprehensive experiments on three benchmarks, comparing it to existing state-of-the-art methods.},
   pages={3612--3620},
-  year={2024}
+  year={2024},
+  preview={AAAI2024_DiDA.png}
 }
 @article{chen2024diffilter,
   title={Diffilter: Defending against adversarial perturbations with diffusion filter},
   author={Chen, Yong and Li, Xuedong and Wang, Xu and Hu, Peng and Peng, Dezhong},
+  abstract={The inherent vulnerability of deep learning to adversarial examples poses a significant security challenge. Although existing defense methods have partially mitigated the harm caused by adversarial attacks, they are still unable to meet practical needs due to their high cost, high latency, and poor defense performance. In this paper, we propose an advanced plug-and-play adversarial purification model called DifFilter. Specifically, we use the superior generative properties of diffusion models to denoise adversarial perturbations and recover clean images. To make Gaussian noise disrupt adversarial perturbations while preserving the real semantic information in the input image, we extend forward diffusion to an infinite number of noise scales so that the distribution of perturbation data evolves with increasing noise according to stochastic differential equations. In the inverse denoising process, we develop a score-based model learning method to restore the input prior distribution to the data distribution of the original clean sample, resulting in stronger purification effects. Additionally, we propose an efficient sampling method to accelerate the computation speed of inverse process, greatly reducing the time cost of purification. We conduct extensive experiments to evaluate the defense generalization performance of DifFilter. The results demonstrate that our method not only surpasses existing defense methods in defense robustness under strong adaptive and black-box attacks but also achieves higher certificate accuracy than the baseline. Furthermore, DifFilter can be combined with adversarial training to further improve defense robustness.}
   journal={IEEE Transactions on Information Forensics and Security},
   abbr={IEEE TIFS},
   year={2024},
