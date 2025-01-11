@@ -25,7 +25,7 @@ Welcome to my homepage! I am Dr. Xu Wang (王旭). I am currently an Associate R
 
 <p align="justify" style="font-size: 18px;">
 My research interests revolve around machine learning and its applications. Related research topics include Robust AI, Effecient AI, multimodal learning, cross-domain learning, and more. 
-<a href="https://scholar.google.com/citations?user=XTOXhy4AAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a> 
+<a href="https://scholar.google.com/citations?user=XTOXhy4AAAAJ&hl=en"></a> 
 </p>
 
 
