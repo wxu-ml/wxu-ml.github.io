@@ -42,7 +42,7 @@
   publisher={IEEE},
   html={https://ieeexplore.ieee.org/abstract/document/10119165},
   code={https://github.com/sunyuan-cs/HCCH},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(EST Highly Cited)</span>},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(ESI Highly Cited)</span>},
   preview={brownian-motion.gif},
   abstract={Cross-modal hashing (CMH) has gained much attention due to its effectiveness and efficiency in facilitating efficient retrieval between different modalities. Whereas, most existing methods unconsciously ignore the hierarchical structural information of the data, and often learn a single-layer hash function to directly transform cross-modal data into common low-dimensional hash codes in one step. This sudden drop of dimension and the huge semantic gap can cause the discriminative information loss. To this end, we adopt a coarse-to-fine progressive mechanism and propose a novel Hierarchical Consensus Cross-Modal Hashing (HCCH) . Specifically, to mitigate the loss of important discriminative information, we propose a coarse-to-fine hierarchical hashing scheme that utilizes a two-layer hash function to refine the beneficial discriminative information gradually. And then, the ℓ2,1 -norm is imposed on the layer-wise hash function to alleviate the effects of redundant and corrupted features. Finally, we present consensus learning to effectively encode data into a consensus space in such a progressive way, thereby reducing the semantic gap progressively. Through extensive contrast experiments with some advanced CMH methods, the effectiveness and efficiency of our HCCH method are demonstrated on four benchmark datasets.}
 }
@@ -193,6 +193,7 @@
   year={2022},
   abbr={ACM MM},
   html={https://dl.acm.org/doi/abs/10.1145/3503161.3547922},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   code={https://github.com/QinYang79/DECL},
   preview={brownian-motion.gif},
   abstract={Cross-modal retrieval has been a compelling topic in the multimodal community. Recently, to mitigate the high cost of data collection, the co-occurred pairs (e.g., image and text) could be collected from the Internet as a large-scaled cross-modal dataset, e.g., Conceptual Captions. However, it will unavoidably introduce noise (i.e., mismatched pairs) into training data, dubbed noisy correspondence. Unquestionably, such noise will make supervision information unreliable/uncertain and remarkably degrade the performance. Besides, most existing methods focus training on hard negatives, which will amplify the unreliability of noise. To address the issues, we propose a generalized Deep Evidential Cross-modal Learning framework (DECL), which integrates a novel Cross-modal Evidential Learning paradigm (CEL) and a Robust Dynamic Hinge loss (RDH) with positive and negative learning. CEL could capture and learn the uncertainty brought by noise to improve the robustness and reliability of cross-modal retrieval. Specifically, the bidirectional evidence based on cross-modal similarity is first modeled and parameterized into the Dirichlet distribution, which not only provides accurate uncertainty estimation but also imparts resilience to perturbations against noisy correspondence. To address the amplification problem, RDH smoothly increases the hardness of negatives focused on, thus embracing higher robustness against high noise. Extensive experiments are conducted on three image-text benchmark datasets, i.e., Flickr30K, MS-COCO, and Conceptual Captions, to verify the effectiveness and efficiency of the proposed method.}
@@ -208,6 +209,97 @@
   publisher={Elsevier},
   abbr={KNOWL-BASED SYST},
   html={https://www.sciencedirect.com/science/article/abs/pii/S0950705122011169},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
   preview={brownian-motion.gif},
   abstract={Deep neural networks are vulnerable to interference categories, which can deceive trained models with imperceptible adversarial perturbations. More crucially, the transferability of adversarial samples has been confirmed, specifically, an adversarial sample crafted against a source agent model can transfer to other target models, which results in the adversary posing a security threat to applications in black-box scenarios. However, the existing transfer-based attacks merely consider a single agent model to create the adversarial samples, leading to poor transferability. In this paper, we propose a novel attack method called Multiagent Attacks Generate Interferential Category via GAN (MagicGAN). Specifically, to avoid the adversarial samples overfitting a single source agent, we design a multiagent discriminator, which can fit the decision boundaries of the various target models to provide more diversified gradient information for the generation of adversarial perturbations. Therefore, the generalization of our method is effectively improved, that is, the adversarial transferability of the adversarial sample is enhanced. In addition, to avoid the pattern collapse of the GAN-based adversarial approach, we construct a novel latent data distance constraint to enhance the compatibility between the latent adversarial sample distances and the corresponding data adversarial sample distances. Therefore, MagicGAN can more effectively generate a distribution close to the adversarial data. Extensive experiments on CelebA, CIFAR-10, MNIST and ImageNet fully validate the effectiveness and superiority of our proposed method.}
+}
+
+
+@article{wang2021drsl,
+  title={Drsl: Deep relational similarity learning for cross-modal retrieval},
+  author={Wang, Xu and Hu, Peng and Zhen, Liangli and Peng, Dezhong},
+  journal={Information Sciences},
+  volume={546},
+  pages={298--311},
+  year={2021},
+  publisher={Elsevier},
+  abbr={INFORM SCIENCES},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0020025520307684},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
+  code={https://github.com/wangxu-scu/DRSL},
+  preview={brownian-motion.gif},
+  abstract={Cross-modal retrieval aims to retrieve relevant samples across different media modalities. Existing cross-modal retrieval approaches are contingent on learning common representations of all modalities by assuming that an equal amount of information exists in different modalities. However, since the quantity of information among cross-modal samples is unbalanced and unequal, it is inappropriate to directly match the obtained modality-specific representations across different modalities in a common space. In this paper, we propose a new method called Deep Relational Similarity Learning (DRSL) for cross-modal retrieval. Unlike existing approaches, the proposed DRSL aims to effectively bridge the heterogeneity gap of different modalities by directly learning the natural pairwise similarities instead of explicitly learning a common space. DRSL is a deep hybrid framework that integrates the relation networks module for relation learning, capturing the implicit nonlinear distance metric. To the best of our knowledge, DRSL is the first approach that incorporates relation networks into the cross-modal learning scenario. Comprehensive experimental results show that the proposed DRSL model achieves state-of-the-art results in cross-modal retrieval tasks on four widely-used benchmark datasets, i.e., Wikipedia, Pascal Sentences, NUS-WIDE-10K, and XMediaNet.}
+}
+
+@article{wang2020deep,
+  title={Deep semisupervised class-and correlation-collapsed cross-view learning},
+  author={Wang, Xu and Hu, Peng and Liu, Pei and Peng, Dezhong},
+  journal={IEEE transactions on cybernetics},
+  volume={52},
+  number={3},
+  pages={1588--1601},
+  year={2020},
+  publisher={IEEE},
+  abbr={IEEE TCYB},
+  html={https://ieeexplore.ieee.org/abstract/document/9086133/},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
+  preview={brownian-motion.gif},
+  abstract={In many computer vision applications, an object can be represented by multiple different views. Due to the heterogeneous gap triggered by the different views’ inconsistent distributions, it is challenging to exploit these multiview data for cross-view retrieval and classification. Motivated by the fact that both labeled and unlabeled data can enhance the relations among different views, this article proposes a deep cross-view learning framework called deep semisupervised classes- and correlation-collapsed cross-view learning (DSC3L) for cross-view retrieval and classification. Different from the existing methods which focus on the two-view problems, the proposed method learns U (generally U≥2 ) view-specific deep transformations to gradually project U different views into a shared space in which the projection embraces the supervised learning and the unsupervised learning. We propose collapsing the instances of the same class from all views into the same point, with the instances of different classes into distinct points simultaneously. Second, to exploit the abundant unlabeled U-wise multiview data, we propose to collapse-correlated data into the same point, with the uncorrelated data into distinct points. Specifically, these two processes are formulated to minimize the two Kullback-Leibler (KL) divergences between the conditional distribution and a desirable one, for each instance. Finally, the two KL divergences are integrated into a joint optimization to learn a discriminative shared space. The experimental results on five widely used public datasets demonstrate the effectiveness of the proposed method.}
+}
+
+@inproceedings{zhen2019deep,
+  title={Deep supervised cross-modal retrieval},
+  author={Zhen, Liangli and Hu, Peng and Wang, Xu and Peng, Dezhong},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={10394--10403},
+  year={2019},
+  abbr={CVPR},
+  html={http://openaccess.thecvf.com/content_CVPR_2019/html/Zhen_Deep_Supervised_Cross-Modal_Retrieval_CVPR_2019_paper.html},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
+  code={https://github.com/penghu-cs/DSCMR},
+  preview={brownian-motion.gif},
+  abstract={Cross-modal retrieval aims to enable flexible retrieval across different modalities. The core of cross-modal retrieval is how to measure the content similarity between different types of data. In this paper, we present a novel cross-modal retrieval method, called Deep Supervised Cross-modal Retrieval (DSCMR). It aims to find a common representation space, in which the samples from different modalities can be compared directly. Specifically, DSCMR minimises the discrimination loss in both the label space and the common representation space to supervise the model learning discriminative features. Furthermore, it simultaneously minimises the modality invariance loss and uses a weight sharing strategy to eliminate the cross-modal discrepancy of multimedia data in the common representation space to learn modality-invariant features. Comprehensive experimental results on four widely-used benchmark datasets demonstrate that the proposed method is effective in cross-modal learning and significantly outperforms the state-of-the-art cross-modal retrieval methods.}
+}
+
+@inproceedings{hu2019separated,
+  title={Separated variational hashing networks for cross-modal retrieval},
+  author={Hu^, Peng and Wang^, Xu and Zhen, Liangli and Peng, Dezhong},
+  booktitle={Proceedings of the 27th ACM International Conference on Multimedia},
+  pages={1721--1729},
+  year={2019},
+  abbr={ACM MM},
+  html={https://dl.acm.org/doi/abs/10.1145/3343031.3351078},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
+  preview={brownian-motion.gif},
+  abstract={Cross-modal hashing, due to its low storage cost and high query speed, has been successfully used for similarity search in multimedia retrieval applications. It projects high-dimensional data into a shared isomorphic Hamming space with similar binary codes for semantically-similar data. In some applications, all modalities may not be obtained or trained simultaneously for some reasons, such as privacy, secret, storage limitation, and computational resource limitation. However, most existing cross-modal hashing methods need all modalities to jointly learn the common Hamming space, thus hindering them from handling these problems. In this paper, we propose a novel approach called Separated Variational Hashing Networks (SVHNs) to overcome the above challenge. Firstly, it adopts a label network (LabNet) to exploit available and nonspecific label annotations to learn a latent common Hamming space by projecting each semantic label into a common binary representation. Then, each modality-specific network can separately map the samples of the corresponding modality into their binary semantic codes learned by LabNet. We achieve it by conducting variational inference to match the aggregated posterior of the hashing code of LabNet with an arbitrary prior distribution. The effectiveness and efficiency of our SVHNs are verified by extensive experiments carried out on four widely-used multimedia databases, in comparison with 11 state-of-the-art approaches.}
+}
+
+@article{wang2019adversarial,
+  title={Adversarial correlated autoencoder for unsupervised multi-view representation learning},
+  author={Wang, Xu and Peng, Dezhong and Hu, Peng and Sang, Yongsheng},
+  journal={Knowledge-Based Systems},
+  volume={168},
+  pages={109--120},
+  year={2019},
+  publisher={Elsevier},
+  abbr={KNOWL-BASED SYST},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0950705119300176},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
+  preview={brownian-motion.gif},
+  abstract={To eliminate the view discrepancy of multi-view data due to different distributions, the key is to learn the common representation for multi-view data in many practical applications. To achieve the end, we propose a novel unsupervised multi-view representation learning method (called Adversarial Correlated AutoEncoder, AdvCAE). In brief, AdvCAE utilizes a deep structure to achieve nonlinear representation and adversarial learning scheme for distribution matching. To be specific, AdvCAE performs like an adversarial autoencoder (AAE) which could conduct variational inference by matching the aggregated posteriors of the latent variable with a specific prior distribution. Benefiting from our model, the representations of different views could follow the same distribution, thus learning the common representation for different views. To the best of our knowledge, AdvCAE could be one of the first unsupervised multi-view representation learning approaches that work in the manner of adversarial learning. To verify the effectiveness of the proposed method, we conduct experiments on five public real-world datasets w.r.t. the applications of cross-view classification and cross-view retrieval tasks. The experimental results show that our method remarkably outperforms than 15 state-of-the-art methods.}
+}
+
+@article{hu2019multimodal,
+  title={Multimodal adversarial network for cross-modal retrieval},
+  author={Hu, Peng and Peng, Dezhong and Wang, Xu and Xiang, Yong},
+  journal={Knowledge-Based Systems},
+  volume={180},
+  pages={38--50},
+  year={2019},
+  publisher={Elsevier},
+  abbr={KNOWL-BASED SYST},
+  html={https://www.sciencedirect.com/science/article/pii/S0950705119302230},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
+  preview={brownian-motion.gif},
+  abstract={Cross-modal retrieval aims to retrieve the pertinent samples across different modalities, which is important in numerous multimodal applications. It is challenging to correlate the multimodal data due to a large heterogeneous gap between distinct modalities. In this paper, we propose a Multimodal Adversarial Network (MAN) method to project the multimodal data into a common space wherein the similarities between different modalities can be directly computed by the same distance measurement. The proposed MAN consists of multiple modality-specific generators, a discriminator and a multimodal discriminant analysis (MDA) loss. With the adversarial learning, the generators are pitted against the discriminator to eliminate the cross-modal discrepancy. Furthermore, a novel MDA loss is proposed to preserve as much discrimination as possible into all available dimensions of the generated common representations. However, there are some problems in directly optimizing the MDA trace criterion. To be specific, the discriminant function will overemphasize 1) the large distances between already separated classes, 2) and the dominant eigenvalues. These problems may cause poor discrimination of the common representations. To solve these problems, we propose a between-class strategy and an eigenvalue strategy to weaken the largest between-class differences and the dominant eigenvalues, respectively. To the best of our knowledge, the proposed MAN could be one of the first works to specifically design for the multimodal representation learning (more than two modalities) with adversarial learning. To verify the effectiveness of the proposed method, extensive experiments are carried out on four widely-used multimodal databases comparing with 16 state-of-the-art approaches.}
 }
