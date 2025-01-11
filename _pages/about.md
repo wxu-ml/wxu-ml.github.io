@@ -29,7 +29,7 @@ My research interests revolve around machine learning and its applications. Rela
 </p>
 
 
-<strong style="font-size: 20px;"> News </strong>
+🔥 <strong style="font-size: 20px;"> News </strong>
 <ul style="text-align: justify; margin: 0; padding: 0;">
     <li>[Dec 2024] Two papers were accepted by The AAAI Conference on Artificial Intelligence (AAAI 2025, CCF-A). Congratulations to Chao and Zi-niu!</li>
     <li>[Sep 2024] I will serve as the Workflow Chair for the 34th International Joint Conference on Artificial Intelligence (IJCAI 2025, CCF-A), which will be held in Montreal, Canada from 16th Aug 2025 – 22th Aug 2025.</li>
