@@ -19,17 +19,13 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-<p align="justify">
-<span style="font-size: 18px;">
+<p align="justify" style="font-size: 18px;">
 Welcome to my homepage! I am Dr. Xu Wang (王旭). I am currently an Associate Researcher at the College of Computer Science, Sichuan University. I received the B.E. degree and Ph.D. degree from Sichuan University in 2015 and 2021, respectively. I was a Joint Ph.D at the Australian Institute for Machine Learning (AIML), University of Adelaide, funded by the China Scholarship Council from 2019 to 2021. I am also a Visiting Research Scientist at the Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore.
-</span>
 </p>
 
-<p align="justify">
-<span style="font-size: 18px;">
+<p align="justify" style="font-size: 18px;">
 My research interests revolve around machine learning and its applications. Related research topics include Robust AI, Effecient AI, multimodal learning, cross-domain learning, and more. 
 <a href="https://scholar.google.com/citations?user=XTOXhy4AAAAJ&hl=en"><img src="assets/img/gs.png" width="12px"></a> 
-</span>
 </p>
 
 
