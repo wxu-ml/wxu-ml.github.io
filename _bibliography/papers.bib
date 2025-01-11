@@ -115,7 +115,7 @@
 }
 @inproceedings{liu2024dida,
   title={DiDA: Disambiguated Domain Alignment for Cross-Domain Retrieval with Partial Labels},
-  author={Liu, Haoran and Ma, Ying and Yan, Ming and Chen, Yingke and Peng, Dezhong and Wang#, Xu},
+  author={Liu, Haoran and Ma, Ying and Yan, Ming and Chen, Yingke and Peng, Dezhong and Wang*, Xu},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   abbr={AAAI},
   volume={38},
@@ -131,7 +131,7 @@
 
 @article{chen2024diffilter,
   title={Diffilter: Defending against adversarial perturbations with diffusion filter},
-  author={Chen, Yong and Li, Xuedong and Wang#, Xu and Hu, Peng and Peng, Dezhong},
+  author={Chen, Yong and Li, Xuedong and Wang*, Xu and Hu, Peng and Peng, Dezhong},
   abstract={The inherent vulnerability of deep learning to adversarial examples poses a significant security challenge. Although existing defense methods have partially mitigated the harm caused by adversarial attacks, they are still unable to meet practical needs due to their high cost, high latency, and poor defense performance. In this paper, we propose an advanced plug-and-play adversarial purification model called DifFilter. Specifically, we use the superior generative properties of diffusion models to denoise adversarial perturbations and recover clean images. To make Gaussian noise disrupt adversarial perturbations while preserving the real semantic information in the input image, we extend forward diffusion to an infinite number of noise scales so that the distribution of perturbation data evolves with increasing noise according to stochastic differential equations. In the inverse denoising process, we develop a score-based model learning method to restore the input prior distribution to the data distribution of the original clean sample, resulting in stronger purification effects. Additionally, we propose an efficient sampling method to accelerate the computation speed of inverse process, greatly reducing the time cost of purification. We conduct extensive experiments to evaluate the defense generalization performance of DifFilter. The results demonstrate that our method not only surpasses existing defense methods in defense robustness under strong adaptive and black-box attacks but also achieves higher certificate accuracy than the baseline. Furthermore, DifFilter can be combined with adversarial training to further improve defense robustness.},
   journal={IEEE Transactions on Information Forensics and Security},
   abbr={IEEE TIFS},
@@ -139,12 +139,126 @@
   publisher={IEEE},
   preview={TIFS2024_DifFilter.png},
   html={https://ieeexplore.ieee.org/document/10584510},
+  preview={brownian-motion.gif},
   additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
+}
+
+@article{sun2023hierarchical,
+  title={Hierarchical consensus hashing for cross-modal retrieval},
+  author={Sun, Yuan and Ren, Zhenwen and Hu, Peng and Peng, Dezhong and Wang*, Xu},
+  journal={IEEE Transactions on Multimedia},
+  abbr={IEEE TMM},
+  volume={26},
+  pages={824--836},
+  year={2023},
+  publisher={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/10119165},
+  code={https://github.com/sunyuan-cs/HCCH},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(EST Highly Cited)</span>},
+  preview={brownian-motion.gif},
+  abstract={Cross-modal hashing (CMH) has gained much attention due to its effectiveness and efficiency in facilitating efficient retrieval between different modalities. Whereas, most existing methods unconsciously ignore the hierarchical structural information of the data, and often learn a single-layer hash function to directly transform cross-modal data into common low-dimensional hash codes in one step. This sudden drop of dimension and the huge semantic gap can cause the discriminative information loss. To this end, we adopt a coarse-to-fine progressive mechanism and propose a novel Hierarchical Consensus Cross-Modal Hashing (HCCH) . Specifically, to mitigate the loss of important discriminative information, we propose a coarse-to-fine hierarchical hashing scheme that utilizes a two-layer hash function to refine the beneficial discriminative information gradually. And then, the ℓ2,1 -norm is imposed on the layer-wise hash function to alleviate the effects of redundant and corrupted features. Finally, we present consensus learning to effectively encode data into a consensus space in such a progressive way, thereby reducing the semantic gap progressively. Through extensive contrast experiments with some advanced CMH methods, the effectiveness and efficiency of our HCCH method are demonstrated on four benchmark datasets.}
+}
+
+@article{hu2023deep,
+  title={Deep supervised multi-view learning with graph priors},
+  author={Hu, Peng and Zhen, Liangli and Peng, Xi and Zhu, Hongyuan and Lin, Jie and Wang, Xu and Peng, Dezhong},
+  journal={IEEE Transactions on Image Processing},
+  volume={33},
+  pages={123--133},
+  year={2023},
+  publisher={IEEE},
+  abbr={IEEE TIP},
+  html={https://ieeexplore.ieee.org/abstract/document/10341289},
+  code={https://github.com/penghu-cs/DMLPA},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
+  preview={brownian-motion.gif},
+  abstract={This paper presents a novel method for supervised multi-view representation learning, which projects multiple views into a latent common space while preserving the discrimination and intrinsic structure of each view. Specifically, an apriori discriminant similarity graph is first constructed based on labels and pairwise relationships of multi-view inputs. Then, view-specific networks progressively map inputs to common representations whose affinity approximates the constructed graph. To achieve graph consistency, discrimination, and cross-view invariance, the similarity graph is enforced to meet the following constraints: 1) pairwise relationship should be consistent between the input space and common space for each view; 2) within-class similarity is larger than any between-class similarity for each view; 3) the inter-view samples from the same (or different) classes are mutually similar (or dissimilar). Consequently, the intrinsic structure and discrimination are preserved in the latent common space using an apriori approximation schema. Moreover, we present a sampling strategy to approach a sub-graph sampled from the whole similarity structure instead of approximating the graph of the whole dataset explicitly, thus benefiting lower space complexity and the capability of handling large-scale multi-view datasets. Extensive experiments show the promising performance of our method on five datasets by comparing it with 18 state-of-the-art methods.}
+}
+
+@inproceedings{wang2023correspondence,
+  title={Correspondence-free domain alignment for unsupervised cross-domain image retrieval},
+  author={Wang, Xu and Peng, Dezhong and Yan, Ming and Hu, Peng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={8},
+  pages={10200--10208},
+  year={2023},
+  abbr={AAAI},
+  html={https://ojs.aaai.org/index.php/AAAI/article/view/26215},
+  code={https://github.com/wangxu-scu/CoDA},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
+  preview={brownian-motion.gif},
+  abstract={Cross-domain image retrieval aims at retrieving images across different domains to excavate cross-domain classificatory or correspondence relationships. This paper studies a less-touched problem of cross-domain image retrieval, i.e., unsupervised cross-domain image retrieval, considering the following practical assumptions: (i) no correspondence relationship, and (ii) no category annotations. It is challenging to align and bridge distinct domains without cross-domain correspondence. To tackle the challenge, we present a novel Correspondence-free Domain Alignment (CoDA) method to effectively eliminate the cross-domain gap through In-domain Self-matching Supervision (ISS) and Cross-domain Classifier Alignment (CCA). To be specific, ISS is presented to encapsulate discriminative information into the latent common space by elaborating a novel self-matching supervision mechanism. To alleviate the cross-domain discrepancy, CCA is proposed to align distinct domain-specific classifiers. Thanks to the ISS and CCA, our method could encode the discrimination into the domain-invariant embedding space for unsupervised cross-domain image retrieval. To verify the effectiveness of the proposed method, extensive experiments are conducted on four benchmark datasets compared with six state-of-the-art methods.}
+}
+
+@article{wang2023cross,
+  title={Cross-domain alignment for zero-shot sketch-based image retrieval},
+  author={Wang, Xu and Peng, Dezhong and Hu, Peng and Gong, Yunhong and Chen, Yong},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={33},
+  number={11},
+  pages={7024--7035},
+  year={2023},
+  publisher={IEEE},
+  abbr={IEEE TCSVT},
+  html={https://ieeexplore.ieee.org/abstract/document/10098211},
+  code={https://github.com/wangxu-scu/CA},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
+  preview={brownian-motion.gif},
+  abstract={Zero-Shot Sketch-Based Image Retrieval (ZS-SBIR) is a rising theme with broad application prospects. Given the sketch image as a query, the goal of ZS-SBIR is to correctly retrieve the semantically similar images under the zero-shot scenario. The key is to project images from photo and sketch domains into a shared space, where the domain gap and semantic gap are effectively bridged. Most previous studies have approached ZS-SBIR as a classification problem and used classification loss to obtain discriminative features. However, these methods do not explicitly encourage the alignment of features, degrading the retrieval performance. To address this issue, this paper proposes a novel method called Cross-domain Alignment (CA) for ZS-SBIR. Specifically, we present a Large-margin Cross-domain Contrastive (LCC) loss to stimulate intra-class compactness and inter-class separability from both domains, motivated by the relationships of pairwise distances in metric learning. The loss boosts features’ alignment and enjoys more discrimination. Moreover, based on the “embedding stability” phenomenon of the neural network, we elaborate a Cross-batch Semantic Metric (CSM) mechanism for boosting the performance of ZS-SBIR. Extensive experiments demonstrate that the proposed CA achieves encouraging performance on the challenging Sketchy and TU-Berlin benchmarks.}
+}
+
+@article{hu2023cross,
+  title={Cross-modal retrieval with partially mismatched pairs},
+  author={Hu, Peng and Huang, Zhenyu and Peng, Dezhong and Wang, Xu and Peng, Xi},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={45},
+  number={8},
+  pages={9595--9610},
+  year={2023},
+  publisher={IEEE},
+  abbr={IEEE TPAMI},
+  html={https://ieeexplore.ieee.org/abstract/document/10050111},
+  code={https://github.com/penghu-cs/RCL},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
+  preview={brownian-motion.gif},
+  abstract={In this paper, we study a challenging but less-touched problem in cross-modal retrieval, i.e., partially mismatched pairs (PMPs). Specifically, in real-world scenarios, a huge number of multimedia data (e.g., the Conceptual Captions dataset) are collected from the Internet, and thus it is inevitable to wrongly treat some irrelevant cross-modal pairs as matched. Undoubtedly, such a PMP problem will remarkably degrade the cross-modal retrieval performance. To tackle this problem, we derive a unified theoretical Robust Cross-modal Learning framework (RCL) with an unbiased estimator of the cross-modal retrieval risk, which aims to endow the cross-modal retrieval methods with robustness against PMPs. In detail, our RCL adopts a novel complementary contrastive learning paradigm to address the following two challenges, i.e., the overfitting and underfitting issues. On the one hand, our method only utilizes the negative information which is much less likely false compared with the positive information, thus avoiding the overfitting issue to PMPs. However, these robust strategies could induce underfitting issues, thus making training models more difficult. On the other hand, to address the underfitting issue brought by weak supervision, we present to leverage of all available negative pairs to enhance the supervision contained in the negative information. Moreover, to further improve the performance, we propose to minimize the upper bounds of the risk to pay more attention to hard samples. To verify the effectiveness and robustness of the proposed method, we carry out comprehensive experiments on five widely-used benchmark datasets compared with nine state-of-the-art approaches w.r.t. the image-text and video-text retrieval tasks.}
+}
+
+@article{sun2023hierarchical,
+  title={Hierarchical hashing learning for image set classification},
+  author={Sun, Yuan and Wang, Xu and Peng, Dezhong and Ren, Zhenwen and Shen, Xiaobo},
+  journal={IEEE Transactions on Image Processing},
+  volume={32},
+  pages={1732--1744},
+  year={2023},
+  publisher={IEEE},
+  abbr={IEEE TIP},
+  html={https://ieeexplore.ieee.org/abstract/document/10061433},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
+  preview={brownian-motion.gif},
+  abstract={With the development of video network, image set classification (ISC) has received a lot of attention and can be used for various practical applications, such as video based recognition, action recognition, and so on. Although the existing ISC methods have obtained promising performance, they often have extreme high complexity. Due to the superiority in storage space and complexity cost, learning to hash becomes a powerful solution scheme. However, existing hashing methods often ignore complex structural information and hierarchical semantics of the original features. They usually adopt a single-layer hashing strategy to transform high-dimensional data into short-length binary codes in one step. This sudden drop of dimension could result in the loss of advantageous discriminative information. In addition, they do not take full advantage of intrinsic semantic knowledge from whole gallery sets. To tackle these problems, in this paper, we propose a novel Hierarchical Hashing Learning (HHL) for ISC. Specifically, a coarse-to-fine hierarchical hashing scheme is proposed that utilizes a two-layer hash function to gradually refine the beneficial discriminative information in a layer-wise fashion. Besides, to alleviate the effects of redundant and corrupted features, we impose the ℓ2,1 norm on the layer-wise hash function. Moreover, we adopt a bidirectional semantic representation with the orthogonal constraint to keep intrinsic semantic information of all samples in whole image sets adequately. Comprehensive experiments demonstrate HHL acquires significant improvements in accuracy and running time.}
+}
+
+@article{wang2023clsep,
+  title={CLSEP: Contrastive learning of sentence embedding with prompt},
+  author={Wang, Qian and Zhang, Weiqi and Lei, Tianyi and Cao, Yu and Peng, Dezhong and Wang*, Xu},
+  journal={Knowledge-Based Systems},
+  volume={266},
+  pages={110381},
+  year={2023},
+  publisher={Elsevier},
+  abbr={KNOWL-BASED SYST},
+  html={https://www.sciencedirect.com/science/article/pii/S0950705123001314},
+  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
+  code={https://github.com/qianandfei/CLSEP-Contrastive-Learning-of-Sentence-Embedding-with-Prompt},
+  preview={brownian-motion.gif},
+  abstract={Sentence embedding, which aims to learn an effective representation of the sentence, is beneficial for downstream tasks. By utilizing contrastive learning, most recent sentence embedding methods have achieved promising results. However, these methods adopt simple data augmentation strategies to obtain variants of the sentence, limiting the representation ability of sentence embedding. In addition, these methods simply adopt the original framework of contrastive learning developed for image representation, which is not suitable for learning sentence embedding. To address these issues, we propose a method dubbed unsupervised contrastive learning of sentence embedding with prompt (CLSEP), aiming to provide effective sentence embedding by utilizing the prompt mechanism. Meanwhile, we propose a novel data augmentation strategy for text data named partial word vector augmentation (PWVA), which augments the data in the word embedding space, retaining more semantic information. Finally, we introduce supervised contrastive learning of sentence embedding (SuCLSE) and verify the effectiveness of the PWVA on the natural language inference (NLI) task. Extensive experiments are conducted on the STS dataset, demonstrating that the proposed CLSEP and SuPCSE are superior to the previous best methods, by utilizing the proposed PWVA strategy.}
 }
 
 @article{su2023metavg,
   title={MetaVG: A Meta-Learning Framework for Visual Grounding},
-  author={Su, Chao and Li, Zhi and Lei, Tianyi and Peng, Dezhong and Wang#, Xu},
+  author={Su, Chao and Li, Zhi and Lei, Tianyi and Peng, Dezhong and Wang*, Xu},
   journal={IEEE Signal Processing Letters},
   abbr={IEEE SPL},
   year={2023},
@@ -155,32 +269,17 @@
   abstract={Visual grounding aims at localizing objects in images using natural language expressions. This task can be challenging when there are significant differences between the distributions of the training and testing sets. Existing methods tend to excessively focus on the training sets, which could lead to overfitting, especially in small-sample scenarios. To address this issue, in this letter, we present a novel meta-learning-based training framework called MetaVG, for visual grounding. Our approach leverages bi-level optimization to adapt quickly to the target task, thereby alleviating the overfitting issue. To train MetaVG effectively, we propose a novel training mechanism called Random Uncorrelated Meta-training (RUM). This mechanism proposes to randomly load uncorrelated batches as support and query sets respectively in the data separation process, then utilize bi-level optimization to directly train the model on visual grounding datasets. Comprehensive experiments on four widely used datasets, as well as in small-sample scenarios, validate the efficacy of MetaVG.}
 }
 
-@article{sun2023hierarchical,
-  title={Hierarchical consensus hashing for cross-modal retrieval},
-  author={Sun, Yuan and Ren, Zhenwen and Hu, Peng and Peng, Dezhong and Wang#, Xu},
-  journal={IEEE Transactions on Multimedia},
-  abbr={IEEE TMM},
-  volume={26},
-  pages={824--836},
+@article{chen2023learning,
+  title={Learning relationship-preserving representation for multi-task adversarial attacks},
+  author={Chen, Yong and Wang, Xu and Hu, Peng and Yuan, Zhong and Peng, Dezhong and Li, Qilin},
+  journal={Neurocomputing},
+  volume={554},
+  pages={126580},
   year={2023},
-  publisher={IEEE},
-  html={https://ieeexplore.ieee.org/abstract/document/10119165},
-  code={https://github.com/sunyuan-cs/HCCH},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(EST Highly Cited)</span>},
-  abstract={Cross-modal hashing (CMH) has gained much attention due to its effectiveness and efficiency in facilitating efficient retrieval between different modalities. Whereas, most existing methods unconsciously ignore the hierarchical structural information of the data, and often learn a single-layer hash function to directly transform cross-modal data into common low-dimensional hash codes in one step. This sudden drop of dimension and the huge semantic gap can cause the discriminative information loss. To this end, we adopt a coarse-to-fine progressive mechanism and propose a novel Hierarchical Consensus Cross-Modal Hashing (HCCH) . Specifically, to mitigate the loss of important discriminative information, we propose a coarse-to-fine hierarchical hashing scheme that utilizes a two-layer hash function to refine the beneficial discriminative information gradually. And then, the ℓ2,1 -norm is imposed on the layer-wise hash function to alleviate the effects of redundant and corrupted features. Finally, we present consensus learning to effectively encode data into a consensus space in such a progressive way, thereby reducing the semantic gap progressively. Through extensive contrast experiments with some advanced CMH methods, the effectiveness and efficiency of our HCCH method are demonstrated on four benchmark datasets.}
-}
-
-@article{hu2023deep,
-  title={Deep supervised multi-view learning with graph priors},
-  author={Hu, Peng and Zhen, Liangli and Peng, Xi and Zhu, Hongyuan and Lin, Jie and Wang, Xu and Peng, Dezhong},
-  journal={IEEE Transactions on Image Processing},
-  abbr={IEEE TIP},
-  volume={33},
-  pages={123--133},
-  year={2023},
-  publisher={IEEE},
-  html={https://ieeexplore.ieee.org/abstract/document/10341289},
-  code={https://github.com/penghu-cs/DMLPA},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
-  abstract={This paper presents a novel method for supervised multi-view representation learning, which projects multiple views into a latent common space while preserving the discrimination and intrinsic structure of each view. Specifically, an apriori discriminant similarity graph is first constructed based on labels and pairwise relationships of multi-view inputs. Then, view-specific networks progressively map inputs to common representations whose affinity approximates the constructed graph. To achieve graph consistency, discrimination, and cross-view invariance, the similarity graph is enforced to meet the following constraints: 1) pairwise relationship should be consistent between the input space and common space for each view; 2) within-class similarity is larger than any between-class similarity for each view; 3) the inter-view samples from the same (or different) classes are mutually similar (or dissimilar). Consequently, the intrinsic structure and discrimination are preserved in the latent common space using an apriori approximation schema. Moreover, we present a sampling strategy to approach a sub-graph sampled from the whole similarity structure instead of approximating the graph of the whole dataset explicitly, thus benefiting lower space complexity and the capability of handling large-scale multi-view datasets. Extensive experiments show the promising performance of our method on five datasets by comparing it with 18 state-of-the-art methods.}
+  publisher={Elsevier},
+  abbr={NEUROCOMPUTING},
+  html={https://www.sciencedirect.com/science/article/pii/S0925231223007038},
+  code={https://github.com/antachen/MTAA},
+  preview={brownian-motion.gif},
+  abstract={Deep neural networks (DNNs) are susceptible to adversarial samples that are carefully crafted to mislead the DNNs with imperceptible perturbations. To test the robustness of DNNs, attack methods based on adversarial samples have gained popularity due to their practicality and effectiveness in achieving encouraging attack results. However, most of these methods do not consider the more realistic multi-task attacks. The main challenge of multi-task attacks is that different tasks have different objective functions, making it difficult to find an optimal optimization goal to generate adversarial samples. To address this issue, we propose a new multi-task adversarial attack paradigm called Multi-Task Adversarial Attacks (MTAA) that uses a relationship-preserving representation to learn adversarial patterns. Unlike previous methods, our attack method does not rely on a task-specific loss function or an attack agent model. Instead, we design a relationship-preserving module that projects samples into a low-dimensional embedding space while preserving their intrinsic geometric structure for adversarial pattern reasoning. This module effectively removes redundant information from high-dimensional features, providing an effective latent space for adversarial pattern reasoning. To learn adversarial representation in the latent space, we introduce a novel adversarial mechanism. Our attack method can deceive different networks on multiple tasks since it is independent of task-specific loss functions and the attack agent. Extensive experimental results show that our attack approach outperforms state-of-the-art universal and transferable attack strategies on multi-task attacks.}
 }
