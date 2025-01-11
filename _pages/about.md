@@ -19,17 +19,17 @@ social: false # includes social icons at the bottom of the page
 ---
 
 
-<p align="justify" style="font-size: 18px;">
+<p align="justify" style="font-size: 17px;">
 Welcome to my homepage! I am Dr. Xu Wang (王旭). I am currently an Associate Researcher at the College of Computer Science, Sichuan University. I received the B.E. degree and Ph.D. degree from Sichuan University in 2015 and 2021, respectively. I was a Joint Ph.D at the Australian Institute for Machine Learning (AIML), University of Adelaide, funded by the China Scholarship Council from 2019 to 2021. I am also a Visiting Research Scientist at the Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore.
 </p>
 
-<p align="justify" style="font-size: 18px;">
+<p align="justify" style="font-size: 17px;">
 My research interests revolve around machine learning and its applications. Related research topics include Robust AI, Effecient AI, multimodal learning, cross-domain learning, and more. 
 <a href="https://scholar.google.com/citations?user=XTOXhy4AAAAJ&hl=en"></a> 
 </p>
 
 
-<strong>News</strong>
+<strong style="font-size: 20px;"> News </strong>
 <ul style="text-align: justify; margin: 0; padding: 0;">
     <li>[Dec 2024] Two papers were accepted by The AAAI Conference on Artificial Intelligence (AAAI 2025, CCF-A). Congratulations to Chao and Zi-niu!</li>
     <li>[Sep 2024] I will serve as the Workflow Chair for the 34th International Joint Conference on Artificial Intelligence (IJCAI 2025, CCF-A), which will be held in Montreal, Canada from 16th Aug 2025 – 22th Aug 2025.</li>
