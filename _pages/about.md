@@ -49,10 +49,10 @@ My research interests revolve around machine learning and its applications. Rela
 <div class="media">
 <table class="table table-borderless">
 <tbody>
+<ul style="text-align: justify; margin: 0; padding: 0;">
+<tr><td width="60">[Dec 2024]:</td><td>Two papers were accepted by The AAAI Conference on Artificial Intelligence (AAAI 2025, CCF-A). Congratulations to Chao and Zi-niu!</td></tr> 
 
-<tr><td width="50">[Dec 2024]:</td><td>Two papers were accepted by The AAAI Conference on Artificial Intelligence (AAAI 2025, CCF-A). Congratulations to Chao and Zi-niu!</td></tr> 
-
-<tr><td width="50">[Sep 2024]:</td><td>I will serve as the Workflow Chair for the 34th International Joint Conference on Artificial Intelligence (IJCAI 2025, CCF-A), which will be held in Montreal, Canada from 16th Aug 2025 – 22th Aug 2025.</strong> </td></tr> 
+<tr><td width="60">[Sep 2024]:</td><td>I will serve as the Workflow Chair for the 34th International Joint Conference on Artificial Intelligence (IJCAI 2025, CCF-A), which will be held in Montreal, Canada from 16th Aug 2025 – 22th Aug 2025.</strong> </td></tr> 
 
 <tr><td width="50">[Jun 2024]:</td><td>One paper was accepted by IEEE Transactions on Information Forensics & Security (IEEE TIFS, CCF-A). Congratulations to Yong!</td></tr> 
 
@@ -64,8 +64,8 @@ My research interests revolve around machine learning and its applications. Rela
 
 <tr><td width="50">[Apr 2023]:</td><td>One paper was accepted by IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT, JCR-Q1). Thanks to all coauthors!</td></tr> 
 
-<tr><td width="50">[Dec 2022]:</td><td>One paper was accepted by The AAAI Conference on Artificial Intelligence (AAAI 2023, CCF-A). Thanks to all coauthors!</td></tr> 
-
+<tr><td width="60">[Dec 2022]:</td><td>One paper was accepted by The AAAI Conference on Artificial Intelligence (AAAI 2023, CCF-A). Thanks to all coauthors!</td></tr> 
+</ul>
 </tbody></table>
 <p style="margin:-15px 0px 0px 0px;"></p>
 </div>

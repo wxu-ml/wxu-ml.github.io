@@ -11,7 +11,7 @@ horizontal: false
 
 
 
-<ul>
+<ul style="text-align: justify; margin: 0; padding: 0;">
 	
 <li><p>Research on Multimodal Neural Network Learning Methods for Co-occurrence Information in Incomplete Scenarios, supported by <b><i>National Natural Science Foundation of China Youth Foundation Program</i></b> (Duration: Jan 2024-Dec 2025), Principal Investigator. </p></li><br />
 	
