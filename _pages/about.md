@@ -50,9 +50,9 @@ My research interests revolve around machine learning and its applications. Rela
 <table class="table table-borderless">
 <tbody>
 <ul style="text-align: justify; margin: 0; padding: 0;">
-<tr><td width="60">[Dec 2024]:</td><td>Two papers were accepted by The AAAI Conference on Artificial Intelligence (AAAI 2025, CCF-A). Congratulations to Chao and Zi-niu!</td></tr> 
+<tr><td width="70">[Dec 2024]:</td><td>Two papers were accepted by The AAAI Conference on Artificial Intelligence (AAAI 2025, CCF-A). Congratulations to Chao and Zi-niu!</td></tr> 
 
-<tr><td width="60">[Sep 2024]:</td><td>I will serve as the Workflow Chair for the 34th International Joint Conference on Artificial Intelligence (IJCAI 2025, CCF-A), which will be held in Montreal, Canada from 16th Aug 2025 – 22th Aug 2025.</strong> </td></tr> 
+<tr><td width="60">[Sep 2024]:</td><td>I will serve as the Workflow Chair for the 34th International Joint Conference on Artificial Intelligence (IJCAI 2025, CCF-A), which will be held in Montreal, Canada from 16th Aug 2025 – 22th Aug 2025.</td></tr> 
 
 <tr><td width="50">[Jun 2024]:</td><td>One paper was accepted by IEEE Transactions on Information Forensics & Security (IEEE TIFS, CCF-A). Congratulations to Yong!</td></tr> 
 
