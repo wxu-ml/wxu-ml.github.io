@@ -10,30 +10,28 @@ horizontal: false
 ---
 
 
-<div>
-        <!--<h1><hr><a name="education"></a>Academic Projects</h1>-->
-        <h1 style="margin-top: 0em">Academic Projects</h1>
-        <br>
+
 <ul>
 	
-<li><p>Robust Forest Fire Detection and Prediction Based on Visual-Language Large Model, supported by <b><i>Academy of Agricultural Sciences of Sichuan Province</i></b> (Grant No. TFSZHH3005; Duration: Nov 2024-Nov 2026), Principal researcher. (火花计划专项项目)</p></li><br />
+<li><p>Research on Multimodal Neural Network Learning Methods for Co-occurrence Information in Incomplete Scenarios, supported by <b><i>National Natural Science Foundation of China Youth Foundation Program</i></b> (Duration: Jan 2024-Dec 2025), Principal Investigator. </p></li><br />
 	
-<li><p>Towards Robust Weakly-supervised Semantic Segmentation via Visual-langrage Large Models, supported by <b><i>National Natural Science Foundation of China</i></b> (Grant No. 62476139; Duration: Jan 2025-Dec 2028), Principal researcher. (国家自然科学基金面上项目)</p></li><br />
-	
-<li><p>Research on weakly supervised image understanding, supported by <b><i>China Scholarship Council Visiting Program Program</i></b> (Grant No. 201908320072; Duration: Dec 2019-Dec 2020), Principal researcher. (国家留学基金委访问计划项目)</p></li><br />
+<li><p>Research on Key Technologies for Data Security in Legal Cases, supported by <b><i>Key Research and Development Project of Sichuan Science and Technology Department</i></b> (Duration: Jul 2021-Jun 2024), Principal Investigator. </p></li><br />
 
-<li><p>Research on deep menta-learning for robust writing and reading on crossbar devices, supported by <b><i>Huawei Basic Research Program Project</i></b> (Duration: Nov 2019-Nov 2022), Principal researcher. (华为基础研究计划项目)</p></li><br />
+<li><p>Research on Cross-Domain Learning Methods for Dynamic Environments, supported by <b><i>Youth Science Fund of the Natural Science Foundation of Sichuan Science and Technology Department</i></b> (Duration: Jan 2025-Dec 2026), Principal Investigator. </p></li><br />
 
-<li><p>Research on Weakly Supervised Semantic Segmentation of Massive Images Based on Associative Features, supported by <b><i>National Natural Science Foundation of China</i></b> (Grant No. 61876093; Duration: Jan 2019-Dec 2022), Principal researcher. (国家自然科学基金面上项目)</p></li><br />
+<li><p>Research on Few-shot Multimodal Learning Algorithms, supported by <b><i>Special Funding (Pre-station) from the China Postdoctoral Science Foundation</i></b> (Duration: Jul 2021-Jun 2024), Principal Investigator. </p></li><br />
 
-<li><p>The Third International Conference on Artificial Intelligence and Robotics and the First Sino-Japanese Bilateral Symposium on "Artificial Intelligence and its Application in the Next Generation Internet of Things", supported by <b><i>National Natural Science Foundation of China International (Regional) Cooperation and Exchange Programs</i></b> (Grant No. 61881240048; Duration: Dec 2018-Dec 2018), Principal researcher. (国家自然科学基金国际(地区)合作与交流项目)</p></li><br />
+<li><p>Research on Multimodal Neural Network Learning Methods for Scenarios with Missing Co-occurrence Information, supported by <b><i>General Project of the China Postdoctoral Science Foundation</i></b> (Duration: Jul 2022-Jun 2024), Principal Investigator. </p></li><br />
 
-<li><p>Research on new algorithm for robust deep neural networks, supported by <b><i>Huawei Innovative Research Program Projects</i></b> (Duration: Nov 2018-Nov 2019), Principal researcher. (华为创新研究计划项目(HIRP OPEN))</p></li><br />
+<li><p>
+Key Technologies and Algorithm Development for Energy-Efficient Low-Carbon Intelligent Control Cloud Platform, supported by <b><i>Key Research and Development Project of Sichuan Science and Technology Department</i></b> (Duration: Jan 2023-Dec 2024), Co-Principal Investigator. </p></li><br />
 
-<li><p>Research on Image Annotation by Fusing Multi-scale Contexts, supported by <b><i>National Natural Science Foundation of China Youth Foundation Program</i></b> (Grant No. 61401228; Duration: Jan 2015-Dec 2017), Principal researcher. (国家自然科学基金青年基金项目)</p></li><br />
+<li><p>Development of Multi-Energy Low-Carbon Optimal Scheduling Technology Based on Variable-Length Genetic Algorithm and Deep Neural Networks, supported by <b><i>Technology Achievement Transformation Project of Sichuan Science and Technology Department</i></b> (Duration: Jan 2023-Dec 2024), Co-Principal Investigator. </p></li><br />
 
-<li><p>Research on weakly supervised image semantic segmentation for massive images and semantic categories, supported by <b><i>Natural Science Foundation of Jiangsu Province</i></b> (Grant No. BK20181393; Duration: Nov 2018-Nov 2021), Principal researcher. (江苏省自然科学基金面上项目)</p></li><br />
+<li><p>Research on Intelligent Augmented Generation Technology Based on Cognitive Graph, supported by <b><i>Key Research and Development Project of Sichuan Science and Technology Department</i></b> (Duration: Apr 2024-Mar 2026), Co-Principal Investigator. </p></li><br />
+
+<li><p>Intelligent Monitoring Technology for Abnormal Electricity Usage Based on Cognitive Computing, supported by <b><i>International Science and Technology Cooperation Project of Chengdu Science and Technology Bureau</i></b> (Duration: Nov 2023-Dec 2025), Principal Investigator. </p></li><br />
+
+<li><p>High Dynamic Range Imaging Technology for Ultra-High-Definition Video, supported by <b><i>Technology Innovation and Development Project of Chengdu Science and Technology Bureau</i></b> (Duration: Sep 2024-Aug 2025), Principal Investigator. </p></li><br />
 
 </ul>
-
-</div>
