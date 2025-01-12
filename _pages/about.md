@@ -45,74 +45,93 @@ My research interests revolve around machine learning and its applications. Rela
 <div class="page-header">
   <h2 id="textbook" style="font-size:25px;">🔥 News</h2>
 </div>
-<p style="margin:15px 0px 0px 0px;"></p>
+<p style="margin:10px 0px 0px 0px;"></p>
 
 <div
   class="panel"
-  style="padding:11px 12px 6px 12px; border-radius:6px; border-style: solid; border-width:2px; border-color: #666666;"
+  style="padding:8px 10px 4px 10px; border-radius:6px; border-style: solid; border-width:2px; border-color: #666666;"
 >
   <div class="media">
-    <table class="table table-borderless" style="width: 100%; text-align: justify;">
+    <table
+      class="table table-borderless"
+      style="width: 100%; text-align: justify; border-spacing: 0; border-collapse: collapse;"
+    >
       <tbody>
         <tr>
-          <td width="50" style="text-align: justify;">12/2024:</td>
-          <td style="text-align: justify;">
+          <td width="50" style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
+            12/2024:
+          </td>
+          <td style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
             Two papers were accepted by The AAAI Conference on Artificial
-            Intelligence (AAAI 2025). 
+            Intelligence (AAAI 2025).
           </td>
         </tr>
         <tr>
-          <td width="50" style="text-align: justify;">09/2024:</td>
-          <td style="text-align: justify;">
+          <td width="50" style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
+            09/2024:
+          </td>
+          <td style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
             I will serve as the Workflow Chair for the 34th International Joint
-            Conference on Artificial Intelligence (IJCAI 2025), which
-            will be held in Montreal, Canada from 16th Aug 2025 – 22th Aug
-            2025.
+            Conference on Artificial Intelligence (IJCAI 2025), which will be
+            held in Montreal, Canada from 16th Aug 2025 – 22th Aug 2025.
           </td>
         </tr>
         <tr>
-          <td width="50" style="text-align: justify;">06/2024:</td>
-          <td style="text-align: justify;">
+          <td width="50" style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
+            06/2024:
+          </td>
+          <td style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
             One paper was accepted by IEEE Transactions on Information
-            Forensics & Security (IEEE TIFS). 
+            Forensics & Security (IEEE TIFS).
           </td>
         </tr>
         <tr>
-          <td width="50" style="text-align: justify;">05/2024:</td>
-          <td style="text-align: justify;">
+          <td width="50" style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
+            05/2024:
+          </td>
+          <td style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
             One paper was recognized by ESI as a Highly Cited Paper!
           </td>
         </tr>
         <tr>
-          <td width="50" style="text-align: justify;">12/2023:</td>
-          <td style="text-align: justify;">
+          <td width="50" style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
+            12/2023:
+          </td>
+          <td style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
             One paper was accepted by The AAAI Conference on Artificial
-            Intelligence (AAAI 2024). 
+            Intelligence (AAAI 2024).
           </td>
         </tr>
         <tr>
-          <td width="50" style="text-align: justify;">11/2023:</td>
-          <td style="text-align: justify;">
+          <td width="50" style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
+            11/2023:
+          </td>
+          <td style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
             One paper was accepted by IEEE Transactions on Image Processing
-            (IEEE TIP). 
+            (IEEE TIP).
           </td>
         </tr>
         <tr>
-          <td width="50" style="text-align: justify;">04/2023:</td>
-          <td style="text-align: justify;">
+          <td width="50" style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
+            04/2023:
+          </td>
+          <td style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
             One paper was accepted by IEEE Transactions on Circuits and Systems
-            for Video Technology (IEEE TCSVT). 
+            for Video Technology (IEEE TCSVT).
           </td>
         </tr>
         <tr>
-          <td width="60" style="text-align: justify;">12/2022:</td>
-          <td style="text-align: justify;">
+          <td width="60" style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
+            12/2022:
+          </td>
+          <td style="text-align: justify; padding: 2px 5px; line-height: 1.2;">
             One paper was accepted by The AAAI Conference on Artificial
-            Intelligence (AAAI 2023). 
+            Intelligence (AAAI 2023).
           </td>
         </tr>
       </tbody>
     </table>
-    <p style="margin:-15px 0px 0px 0px;"></p>
+    <p style="margin:-10px 0px 0px 0px;"></p>
   </div>
 </div>
+
