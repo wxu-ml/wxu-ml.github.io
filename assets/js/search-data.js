@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/services/";
           },
-        },{id: "nav-teaching",
-          title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+        },{id: "nav-contact-information",
+          title: "Contact Information",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/contact/";
           },
         },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
