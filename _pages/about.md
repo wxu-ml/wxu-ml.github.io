@@ -60,7 +60,7 @@ My research interests revolve around machine learning and its applications. Rela
     <img
       src="assets/img/wangxu.jpg"
       alt="Xu Wang"
-      style="width: 220px; height: auto; border-radius: 8px;"
+      style="width: 250px; height: auto; border-radius: 8px;"
     />
   </div>
 
@@ -77,10 +77,10 @@ My research interests revolve around machine learning and its applications. Rela
       Research (CFAR), Agency for Science, Technology and Research (A*STAR),
       Singapore.
     </p>
-    <p align="justify" style="font-size: 16px; margin-top: 12px;">
+    <p align="justify" style="font-size: 16px; margin-top: 10px;">
       My research interests revolve around machine learning and its
       applications. Related research topics include Robust AI, Effecient AI,
-      multimodal learning, cross-domain learning, and more.
+      Multimodal Learning, Cross-domain Learning, and more.
     </p>
   </div>
 </div>
