@@ -60,7 +60,7 @@ My research interests revolve around machine learning and its applications. Rela
     <img
       src="assets/img/wangxu.jpg"
       alt="Xu Wang"
-      style="width: 200px; height: auto; border-radius: 8px;"
+      style="width: 220px; height: auto; border-radius: 8px;"
     />
   </div>
 
@@ -89,7 +89,7 @@ My research interests revolve around machine learning and its applications. Rela
 <p style="margin:22px 0px 0px 0px;"></p>
 
 <div class="page-header" style="margin-bottom: 20px;">
-  <h2 id="textbook" style="font-size:30px; margin-bottom: 10px;">🔥 News</h2>
+  <h2 id="textbook" style="font-size:30px; margin-bottom: 10px;">🔥 <strong>News</strong></h2>
 </div>
 <p style="margin:20px 0px 0px 0px;"></p>
 
