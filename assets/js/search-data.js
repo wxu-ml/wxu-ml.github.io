@@ -11,17 +11,17 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "(#) denotes the corresponding author.",
+          description: "(*) denotes the corresponding author. Full list on Google Scholar",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+        },{id: "nav-services",
+          title: "Services",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/services/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-services",
-          title: "Services",
-          description: "",
+        },{id: "nav-projects",
+          title: "projects",
+          description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/services/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-teaching",
           title: "teaching",
