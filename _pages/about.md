@@ -4,10 +4,10 @@ title: About
 permalink: /
 subtitle: Associate Researcher @ College of Computer Science, Sichuan University
 
-profile:
-  align: left
-  image: wangxu.jpg
-  image_circular: false # crops the image to make it circular
+# profile:
+#   align: left
+#   image: wangxu.jpg
+#   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-<div class="boxmine" style="width:100%;">
+<!-- <div class="boxmine" style="width:100%;">
 <p align="justify" style="font-size: 17px;">
 Welcome to my homepage! I am Dr. Xu Wang (王旭). I am currently an Associate Researcher at the College of Computer Science, Sichuan University. I received the B.E. degree and Ph.D. degree from Sichuan University in 2015 and 2021, respectively. I was a Joint Ph.D at the Australian Institute for Machine Learning (AIML), University of Adelaide, funded by the China Scholarship Council from 2019 to 2021. I am also a Visiting Research Scientist at the Centre for Frontier AI Research (CFAR), Agency for Science, Technology and Research (A*STAR), Singapore.
 </p>
@@ -27,7 +27,7 @@ Welcome to my homepage! I am Dr. Xu Wang (王旭). I am currently an Associate R
 My research interests revolve around machine learning and its applications. Related research topics include Robust AI, Effecient AI, multimodal learning, cross-domain learning, and more. 
 <a href="https://scholar.google.com/citations?user=XTOXhy4AAAAJ&hl=en"></a> 
 </p>
-</div>
+</div> -->
 
 <!-- 🔥 <strong style="font-size: 20px;"> News </strong>
 <ul style="text-align: justify; margin: 0; padding: 0;">
@@ -40,6 +40,51 @@ My research interests revolve around machine learning and its applications. Rela
     <li>[Apr 2023] One paper was accepted by IEEE Transactions on Circuits and Systems for Video Technology (IEEE TCSVT, JCR-Q1). Thanks to all coauthors!</li>
     <li>[Dec 2022] One paper was accepted by The AAAI Conference on Artificial Intelligence (AAAI 2023, CCF-A). Thanks to all coauthors!</li>
 </ul> -->
+
+
+
+<div
+  class="boxmine"
+  style="
+    width: 100%;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  "
+>
+  <!-- 图片部分 -->
+  <div style="flex: 0 0 auto;">
+    <img
+      src="assets/img/wangxu.jpg"
+      alt="Xu Wang"
+      style="width: 150px; height: auto; border-radius: 8px;"
+    />
+  </div>
+
+  <!-- 文本部分 -->
+  <div style="flex: 1;">
+    <p align="justify" style="font-size: 17px; margin: 0;">
+      Welcome to my homepage! I am Dr. Xu Wang (王旭). I am currently an
+      Associate Researcher at the College of Computer Science, Sichuan
+      University. I received the B.E. degree and Ph.D. degree from Sichuan
+      University in 2015 and 2021, respectively. I was a Joint Ph.D at the
+      Australian Institute for Machine Learning (AIML), University of
+      Adelaide, funded by the China Scholarship Council from 2019 to 2021. I
+      am also a Visiting Research Scientist at the Centre for Frontier AI
+      Research (CFAR), Agency for Science, Technology and Research (A*STAR),
+      Singapore.
+    </p>
+
+    <p align="justify" style="font-size: 17px; margin-top: 12px;">
+      My research interests revolve around machine learning and its
+      applications. Related research topics include Robust AI, Effecient AI,
+      multimodal learning, cross-domain learning, and more.
+    </p>
+  </div>
+</div>
 
 
 <div class="page-header" style="margin-bottom: 20px;">
