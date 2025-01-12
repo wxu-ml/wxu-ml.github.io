@@ -153,49 +153,6 @@
   abstract={With the development of video network, image set classification (ISC) has received a lot of attention and can be used for various practical applications, such as video based recognition, action recognition, and so on. Although the existing ISC methods have obtained promising performance, they often have extreme high complexity. Due to the superiority in storage space and complexity cost, learning to hash becomes a powerful solution scheme. However, existing hashing methods often ignore complex structural information and hierarchical semantics of the original features. They usually adopt a single-layer hashing strategy to transform high-dimensional data into short-length binary codes in one step. This sudden drop of dimension could result in the loss of advantageous discriminative information. In addition, they do not take full advantage of intrinsic semantic knowledge from whole gallery sets. To tackle these problems, in this paper, we propose a novel Hierarchical Hashing Learning (HHL) for ISC. Specifically, a coarse-to-fine hierarchical hashing scheme is proposed that utilizes a two-layer hash function to gradually refine the beneficial discriminative information in a layer-wise fashion. Besides, to alleviate the effects of redundant and corrupted features, we impose the ℓ2,1 norm on the layer-wise hash function. Moreover, we adopt a bidirectional semantic representation with the orthogonal constraint to keep intrinsic semantic information of all samples in whole image sets adequately. Comprehensive experiments demonstrate HHL acquires significant improvements in accuracy and running time.}
 }
 
-@article{wang2023clsep,
-  title={CLSEP: Contrastive learning of sentence embedding with prompt},
-  author={Wang, Qian and Zhang, Weiqi and Lei, Tianyi and Cao, Yu and Peng, Dezhong and Wang*, Xu},
-  journal={Knowledge-Based Systems},
-  volume={266},
-  pages={110381},
-  year={2023},
-  publisher={Elsevier},
-  abbr={KNOWL-BASED SYST},
-  html={https://www.sciencedirect.com/science/article/pii/S0950705123001314},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
-  code={https://github.com/qianandfei/CLSEP-Contrastive-Learning-of-Sentence-Embedding-with-Prompt},
-  preview={brownian-motion.gif},
-  abstract={Sentence embedding, which aims to learn an effective representation of the sentence, is beneficial for downstream tasks. By utilizing contrastive learning, most recent sentence embedding methods have achieved promising results. However, these methods adopt simple data augmentation strategies to obtain variants of the sentence, limiting the representation ability of sentence embedding. In addition, these methods simply adopt the original framework of contrastive learning developed for image representation, which is not suitable for learning sentence embedding. To address these issues, we propose a method dubbed unsupervised contrastive learning of sentence embedding with prompt (CLSEP), aiming to provide effective sentence embedding by utilizing the prompt mechanism. Meanwhile, we propose a novel data augmentation strategy for text data named partial word vector augmentation (PWVA), which augments the data in the word embedding space, retaining more semantic information. Finally, we introduce supervised contrastive learning of sentence embedding (SuCLSE) and verify the effectiveness of the PWVA on the natural language inference (NLI) task. Extensive experiments are conducted on the STS dataset, demonstrating that the proposed CLSEP and SuPCSE are superior to the previous best methods, by utilizing the proposed PWVA strategy.}
-}
-
-@article{su2023metavg,
-  title={MetaVG: A Meta-Learning Framework for Visual Grounding},
-  author={Su, Chao and Li, Zhi and Lei, Tianyi and Peng, Dezhong and Wang*, Xu},
-  journal={IEEE Signal Processing Letters},
-  abbr={IEEE SPL},
-  year={2023},
-  publisher={IEEE},
-  html={https://ieeexplore.ieee.org/abstract/document/10365212},
-  code={https://github.com/Rose-bud/MetaVG},
-  preview={brownian-motion.gif},
-  abstract={Visual grounding aims at localizing objects in images using natural language expressions. This task can be challenging when there are significant differences between the distributions of the training and testing sets. Existing methods tend to excessively focus on the training sets, which could lead to overfitting, especially in small-sample scenarios. To address this issue, in this letter, we present a novel meta-learning-based training framework called MetaVG, for visual grounding. Our approach leverages bi-level optimization to adapt quickly to the target task, thereby alleviating the overfitting issue. To train MetaVG effectively, we propose a novel training mechanism called Random Uncorrelated Meta-training (RUM). This mechanism proposes to randomly load uncorrelated batches as support and query sets respectively in the data separation process, then utilize bi-level optimization to directly train the model on visual grounding datasets. Comprehensive experiments on four widely used datasets, as well as in small-sample scenarios, validate the efficacy of MetaVG.}
-}
-
-@article{chen2023learning,
-  title={Learning relationship-preserving representation for multi-task adversarial attacks},
-  author={Chen, Yong and Wang, Xu and Hu, Peng and Yuan, Zhong and Peng, Dezhong and Li, Qilin},
-  journal={Neurocomputing},
-  volume={554},
-  pages={126580},
-  year={2023},
-  publisher={Elsevier},
-  abbr={NEUROCOMPUTING},
-  html={https://www.sciencedirect.com/science/article/pii/S0925231223007038},
-  code={https://github.com/antachen/MTAA},
-  preview={brownian-motion.gif},
-  abstract={Deep neural networks (DNNs) are susceptible to adversarial samples that are carefully crafted to mislead the DNNs with imperceptible perturbations. To test the robustness of DNNs, attack methods based on adversarial samples have gained popularity due to their practicality and effectiveness in achieving encouraging attack results. However, most of these methods do not consider the more realistic multi-task attacks. The main challenge of multi-task attacks is that different tasks have different objective functions, making it difficult to find an optimal optimization goal to generate adversarial samples. To address this issue, we propose a new multi-task adversarial attack paradigm called Multi-Task Adversarial Attacks (MTAA) that uses a relationship-preserving representation to learn adversarial patterns. Unlike previous methods, our attack method does not rely on a task-specific loss function or an attack agent model. Instead, we design a relationship-preserving module that projects samples into a low-dimensional embedding space while preserving their intrinsic geometric structure for adversarial pattern reasoning. This module effectively removes redundant information from high-dimensional features, providing an effective latent space for adversarial pattern reasoning. To learn adversarial representation in the latent space, we introduce a novel adversarial mechanism. Our attack method can deceive different networks on multiple tasks since it is independent of task-specific loss functions and the attack agent. Extensive experimental results show that our attack approach outperforms state-of-the-art universal and transferable attack strategies on multi-task attacks.}
-}
 
 @inproceedings{lei2022adaptive,
   title={Adaptive Meta-learner via Gradient Similarity for Few-shot Text Classification},
@@ -312,19 +269,4 @@
   additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
   preview={brownian-motion.gif},
   abstract={To eliminate the view discrepancy of multi-view data due to different distributions, the key is to learn the common representation for multi-view data in many practical applications. To achieve the end, we propose a novel unsupervised multi-view representation learning method (called Adversarial Correlated AutoEncoder, AdvCAE). In brief, AdvCAE utilizes a deep structure to achieve nonlinear representation and adversarial learning scheme for distribution matching. To be specific, AdvCAE performs like an adversarial autoencoder (AAE) which could conduct variational inference by matching the aggregated posteriors of the latent variable with a specific prior distribution. Benefiting from our model, the representations of different views could follow the same distribution, thus learning the common representation for different views. To the best of our knowledge, AdvCAE could be one of the first unsupervised multi-view representation learning approaches that work in the manner of adversarial learning. To verify the effectiveness of the proposed method, we conduct experiments on five public real-world datasets w.r.t. the applications of cross-view classification and cross-view retrieval tasks. The experimental results show that our method remarkably outperforms than 15 state-of-the-art methods.}
-}
-
-@article{hu2019multimodal,
-  title={Multimodal adversarial network for cross-modal retrieval},
-  author={Hu, Peng and Peng, Dezhong and Wang, Xu and Xiang, Yong},
-  journal={Knowledge-Based Systems},
-  volume={180},
-  pages={38--50},
-  year={2019},
-  publisher={Elsevier},
-  abbr={KNOWL-BASED SYST},
-  html={https://www.sciencedirect.com/science/article/pii/S0950705119302230},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
-  preview={brownian-motion.gif},
-  abstract={Cross-modal retrieval aims to retrieve the pertinent samples across different modalities, which is important in numerous multimodal applications. It is challenging to correlate the multimodal data due to a large heterogeneous gap between distinct modalities. In this paper, we propose a Multimodal Adversarial Network (MAN) method to project the multimodal data into a common space wherein the similarities between different modalities can be directly computed by the same distance measurement. The proposed MAN consists of multiple modality-specific generators, a discriminator and a multimodal discriminant analysis (MDA) loss. With the adversarial learning, the generators are pitted against the discriminator to eliminate the cross-modal discrepancy. Furthermore, a novel MDA loss is proposed to preserve as much discrimination as possible into all available dimensions of the generated common representations. However, there are some problems in directly optimizing the MDA trace criterion. To be specific, the discriminant function will overemphasize 1) the large distances between already separated classes, 2) and the dominant eigenvalues. These problems may cause poor discrimination of the common representations. To solve these problems, we propose a between-class strategy and an eigenvalue strategy to weaken the largest between-class differences and the dominant eigenvalues, respectively. To the best of our knowledge, the proposed MAN could be one of the first works to specifically design for the multimodal representation learning (more than two modalities) with adversarial learning. To verify the effectiveness of the proposed method, extensive experiments are carried out on four widely-used multimodal databases comparing with 16 state-of-the-art approaches.}
 }
