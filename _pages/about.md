@@ -55,7 +55,7 @@ My research interests revolve around machine learning and its applications. Rela
     <table class="table table-borderless" style="width: 100%; text-align: justify;">
       <tbody>
         <tr>
-          <td width="100" style="text-align: justify;">[Dec 2024]:</td>
+          <td width="100" style="text-align: justify;">12/2024:</td>
           <td style="text-align: justify;">
             Two papers were accepted by The AAAI Conference on Artificial
             Intelligence (AAAI 2025, CCF-A). Congratulations to Chao and
