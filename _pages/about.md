@@ -181,5 +181,7 @@ My research interests revolve around machine learning and its applications. Rela
 </div>
 
 
-
+<center>
+<div id="clustrmaps-widget" style="width:10%">
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=o7UwGoUjRx86dwNP8X3ALJZlExuIWwmwszoag4mmXiw"></script>
+</div></center>
