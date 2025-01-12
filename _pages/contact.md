@@ -1,10 +1,12 @@
---
+---
 layout: page
+title: Contact Information
 permalink: /contact/
-title: <strong>Contact Information</strong>
 description: 
 nav: true
-nav_order: 7
+nav_order: 5
+display_categories: [contact]
+horizontal: false
 ---
 
 
