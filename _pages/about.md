@@ -66,18 +66,18 @@ My research interests revolve around machine learning and its applications. Rela
 
   <!-- 文本部分 -->
   <div style="flex: 1;">
-    <p align="justify" style="font-size: 15px; margin: 0;">
-      Welcome to my homepage! I am Dr. Xu Wang (王旭). I am currently an
+    <p align="justify" style="font-size: 16px; margin: 0;">
+      Welcome to my homepage! I am Dr. Xu Wang (王旭 in Chinese). I am currently an
       Associate Researcher at the College of Computer Science, Sichuan
-      University. I received the B.E. degree and Ph.D. degree from Sichuan
+      University, Chengdu, China. I received the B.E. degree and Ph.D. degree from Sichuan
       University in 2015 and 2021, respectively. I was a Joint Ph.D at the
       Australian Institute for Machine Learning (AIML), University of
-      Adelaide, funded by the China Scholarship Council from 2019 to 2021. I
+      Adelaide, Australia, funded by the China Scholarship Council from 2019 to 2021. I
       am also a Visiting Research Scientist at the Centre for Frontier AI
       Research (CFAR), Agency for Science, Technology and Research (A*STAR),
       Singapore.
     </p>
-    <p align="justify" style="font-size: 15px; margin-top: 12px;">
+    <p align="justify" style="font-size: 16px; margin-top: 12px;">
       My research interests revolve around machine learning and its
       applications. Related research topics include Robust AI, Effecient AI,
       multimodal learning, cross-domain learning, and more.
@@ -108,8 +108,8 @@ My research interests revolve around machine learning and its applications. Rela
             12/2024:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            Two papers were accepted by The AAAI Conference on Artificial
-            Intelligence (AAAI 2025).
+            Two papers were accepted by <strong>The AAAI Conference on Artificial
+            Intelligence (AAAI 2025)</strong>.
           </td>
         </tr>
         <tr>
@@ -117,8 +117,7 @@ My research interests revolve around machine learning and its applications. Rela
             09/2024:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            I will serve as the Workflow Chair for the 34th International Joint
-            Conference on Artificial Intelligence (IJCAI 2025), which will be
+            I will serve as the Workflow Chair for the <strong><a href="https://2025.ijcai.org/">34th International Joint Conference on Artificial Intelligence (IJCAI 2025)</a></strong>, which will be
             held in Montreal, Canada from 16th Aug 2025 – 22th Aug 2025.
           </td>
         </tr>
@@ -127,8 +126,8 @@ My research interests revolve around machine learning and its applications. Rela
             06/2024:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            One paper was accepted by IEEE Transactions on Information
-            Forensics & Security (IEEE TIFS).
+            One paper was accepted by <strong>IEEE Transactions on Information
+            Forensics & Security (IEEE TIFS)</strong>.
           </td>
         </tr>
         <tr>
@@ -136,7 +135,7 @@ My research interests revolve around machine learning and its applications. Rela
             05/2024:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            One paper was recognized by ESI as a Highly Cited Paper!
+            One paper was recognized by <strong>ESI as a Highly Cited Paper!</strong>
           </td>
         </tr>
         <tr>
@@ -144,8 +143,8 @@ My research interests revolve around machine learning and its applications. Rela
             12/2023:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            One paper was accepted by The AAAI Conference on Artificial
-            Intelligence (AAAI 2024).
+            One paper was accepted by <strong>The AAAI Conference on Artificial
+            Intelligence (AAAI 2024)</strong>.
           </td>
         </tr>
         <tr>
@@ -153,8 +152,8 @@ My research interests revolve around machine learning and its applications. Rela
             11/2023:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            One paper was accepted by IEEE Transactions on Image Processing
-            (IEEE TIP).
+            One paper was accepted by <strong>IEEE Transactions on Image Processing
+            (IEEE TIP)</strong>.
           </td>
         </tr>
         <tr>
@@ -162,8 +161,8 @@ My research interests revolve around machine learning and its applications. Rela
             04/2023:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            One paper was accepted by IEEE Transactions on Circuits and Systems
-            for Video Technology (IEEE TCSVT).
+            One paper was accepted by <strong>IEEE Transactions on Circuits and Systems
+            for Video Technology (IEEE TCSVT)</strong>.
           </td>
         </tr>
         <tr>
@@ -171,8 +170,8 @@ My research interests revolve around machine learning and its applications. Rela
             12/2022:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            One paper was accepted by The AAAI Conference on Artificial
-            Intelligence (AAAI 2023).
+            One paper was accepted by <strong>The AAAI Conference on Artificial
+            Intelligence (AAAI 2023)</strong>.
           </td>
         </tr>
       </tbody>
