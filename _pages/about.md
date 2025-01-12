@@ -66,7 +66,7 @@ My research interests revolve around machine learning and its applications. Rela
 
   <!-- 文本部分 -->
   <div style="flex: 1;">
-    <p align="justify" style="font-size: 17px; margin: 0;">
+    <p align="justify" style="font-size: 15px; margin: 0;">
       Welcome to my homepage! I am Dr. Xu Wang (王旭). I am currently an
       Associate Researcher at the College of Computer Science, Sichuan
       University. I received the B.E. degree and Ph.D. degree from Sichuan
@@ -77,8 +77,7 @@ My research interests revolve around machine learning and its applications. Rela
       Research (CFAR), Agency for Science, Technology and Research (A*STAR),
       Singapore.
     </p>
-
-    <p align="justify" style="font-size: 17px; margin-top: 12px;">
+    <p align="justify" style="font-size: 15px; margin-top: 12px;">
       My research interests revolve around machine learning and its
       applications. Related research topics include Robust AI, Effecient AI,
       multimodal learning, cross-domain learning, and more.
@@ -87,7 +86,7 @@ My research interests revolve around machine learning and its applications. Rela
 </div>
 
 
-<p style="margin:-22px 0px 0px 0px;"></p>
+<p style="margin:22px 0px 0px 0px;"></p>
 
 <div class="page-header" style="margin-bottom: 20px;">
   <h2 id="textbook" style="font-size:30px; margin-bottom: 10px;">🔥 News</h2>
