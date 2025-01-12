@@ -60,7 +60,7 @@ My research interests revolve around machine learning and its applications. Rela
     <img
       src="assets/img/wangxu.jpg"
       alt="Xu Wang"
-      style="width: auto; height: 260px; border-radius: 8px;"
+      style="width: auto; height: 270px; border-radius: 8px;"
     />
   </div>
 
