@@ -60,16 +60,21 @@ My research interests revolve around machine learning and its applications. Rela
   <div
     style="
       flex: 0 0 auto;
-      width: 100%;
-      height: auto;
-      max-width: 200px;
+      max-width: 270px; /* 限制图片最大宽度 */
       text-align: center;
+      width: 100%; /* 在移动端下占满宽度 */
     "
   >
     <img
       src="assets/img/wangxu.jpg"
       alt="Xu Wang"
-      style="width: auto; height: 270px; max-width: 100%; border-radius: 8px;"
+      style="
+        width: 100%;
+        height: auto; /* 保持图片比例 */
+        max-width: 270px; /* 限制图片最大宽度 */
+        border-radius: 8px;
+        object-fit: cover; /* 确保图片不拉伸变形 */
+      "
     />
   </div>
 
@@ -102,8 +107,10 @@ My research interests revolve around machine learning and its applications. Rela
       align-items: center;
     }
     .boxmine img {
-      height: auto; /* 自动调整图片高度 */
-      max-width: 100%; /* 确保图片不会超出屏幕 */
+      width: auto; /* 图片宽度自适应 */
+      height: auto; /* 高度自适应 */
+      max-width: 270px; /* 限制图片最大宽度 */
+      object-fit: contain; /* 保持图片比例 */
     }
     .boxmine div {
       width: 100%; /* 每个部分占据100%的宽度 */
