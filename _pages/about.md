@@ -61,6 +61,7 @@ My research interests revolve around machine learning and its applications. Rela
     style="
       flex: 0 0 auto;
       width: 100%;
+      height: auto;
       max-width: 200px;
       text-align: center;
     "
