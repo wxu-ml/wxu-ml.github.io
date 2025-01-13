@@ -51,31 +51,39 @@ My research interests revolve around machine learning and its applications. Rela
     border-radius: 8px;
     padding: 16px;
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     gap: 16px;
   "
 >
   <!-- 图片部分 -->
-  <div style="flex: 0 0 auto;">
+  <div
+    style="
+      flex: 0 0 auto;
+      width: 100%;
+      max-width: 200px;
+      text-align: center;
+    "
+  >
     <img
       src="assets/img/wangxu.jpg"
       alt="Xu Wang"
-      style="width: auto; height: 270px; border-radius: 8px;"
+      style="width: auto; height: 270px; max-width: 100%; border-radius: 8px;"
     />
   </div>
 
   <!-- 文本部分 -->
-  <div style="flex: 1;">
+  <div style="flex: 1; width: 100%;">
     <p align="justify" style="font-size: 16px; margin: 0;">
       Welcome to my homepage! I am Dr. Xu Wang (王旭 in Chinese). I am currently an
       Associate Researcher at the College of Computer Science, Sichuan
-      University, Chengdu, China. I received the B.E. degree and Ph.D. degree from Sichuan
-      University in 2015 and 2021, respectively. I was a Joint Ph.D at the
-      Australian Institute for Machine Learning (AIML), University of
-      Adelaide, Australia, funded by the China Scholarship Council from 2019 to 2021. I
-      am also a Visiting Research Scientist at the Centre for Frontier AI
-      Research (CFAR), Agency for Science, Technology and Research (A*STAR),
-      Singapore.
+      University, Chengdu, China. I received the B.E. degree and Ph.D. degree
+      from Sichuan University in 2015 and 2021, respectively. I was a Joint
+      Ph.D at the Australian Institute for Machine Learning (AIML), University
+      of Adelaide, Australia, funded by the China Scholarship Council from
+      2019 to 2021. I am also a Visiting Research Scientist at the Centre for
+      Frontier AI Research (CFAR), Agency for Science, Technology and Research
+      (A*STAR), Singapore.
     </p>
     <p align="justify" style="font-size: 16px; margin-top: 10px;">
       My research interests revolve around machine learning and its
@@ -84,6 +92,24 @@ My research interests revolve around machine learning and its applications. Rela
     </p>
   </div>
 </div>
+
+<!-- 添加媒体查询 -->
+<style>
+  @media (max-width: 768px) {
+    .boxmine {
+      flex-direction: column; /* 在小屏幕上图片和文本垂直排列 */
+      align-items: center;
+    }
+    .boxmine img {
+      height: auto; /* 自动调整图片高度 */
+      max-width: 100%; /* 确保图片不会超出屏幕 */
+    }
+    .boxmine div {
+      width: 100%; /* 每个部分占据100%的宽度 */
+    }
+  }
+</style>
+
 
 
 <p style="margin:22px 0px 0px 0px;"></p>
