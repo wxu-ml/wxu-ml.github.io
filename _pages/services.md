@@ -16,13 +16,14 @@ Conference Committee
 <li>Program Committee, AAAI</li>
 <li>Program Committee, ACM MM</li>
 <li>Program Committee, IJCAI</li>
-<li>Program Committee, NeuIPS</li>
+<li>Program Committee, NeurIPS</li>
 <li>Program Committee, ICML</li>
 </ul>
 
 
-Journal
+Journal Reviewer
 <ul>
+<li><a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing">IEEE Transactions on Image Processing</a></li>
 <li><a href="https://cis.ieee.org/publications/t-neural-networks-and-learning-systems">IEEE Transactions on Neural Networks and Learning Systems</a></li>
 <li><a href="https://ieee-cas.org/publication/tcsvt">IEEE Transactions on Circuits and Systems for Video Technology</a></li>
 <li><a href="https://www.computer.org/csdl/journal/tp">IEEE Transactions on Pattern Analysis and Machine Intelligence</a>
