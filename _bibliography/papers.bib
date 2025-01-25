@@ -8,7 +8,6 @@
   abbr={AAAI},
   html={},
   code={https://github.com/Rose-bud/DiCA},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   abstract = {Cross-modal retrieval aims to retrieve relevant data across different modalities. Driven by costly massive labeled data, existing cross-modal retrieval methods achieve encouraging results. To reduce annotation costs while maintaining per- formance, this paper focuses on an untouched but challeng- ing problem, i.e., cross-modal retrieval with partial labels (PLCMR). PLCMR faces the dual challenges of annotation ambiguity and modality gap. To address these challenges, we propose a novel method termed disambiguated contrastive alignment (DiCA) for cross-modal retrieval with partial la- bels. Specifically, DiCA proposes a novel non-candidate boosted disambiguation learning mechanism (NBDL), which elaborately balances the trade-off between the losses on can- didate and non-candidate labels that eliminate label am- biguity and narrow the modality gap. Moreover, DiCA presents an instance-prototype representation learning mech- anism (IPRL) to enhance the model by further eliminating the modality gap at both the instance and prototype lev- els. Thanks to NBDL and IPRL, our DiCA effectively ad- dresses the issues of annotation ambiguity and modality gap for cross-modal retrieval with partial labels. Experiments on four benchmarks validate the effectiveness of our proposed method, which demonstrates enhanced performance over ex- isting state-of-the-art methods.}
 }
 
@@ -20,7 +19,6 @@
   abbr={AAAI},
   html={},
   code={https://github.com/yznovo/RoDA},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   abstract = {This paper studies the complex challenge of cross-domain image retrieval under the condition of noisy labels (NCIR), a scenario that not only includes the inherent obstacles of traditional cross-domain image retrieval (CIR) but also re- quires alleviating the adverse effects of label noise. To ad- dress this challenge, this paper introduces a novel Robust Do- main Alignment framework (RoDA), specifically designed for the NCIR task. At the heart of RoDA is the Selective Division and Adaptive Learning mechanism (SDAL), a key component crafted to shield the model from overfitting the noisy labels. SDAL effectively learns discriminative knowl- edge by dividing the dataset into clean and noisy parts, sub- sequently rectifying the labels for the latter based on in- formation drawn from the clean one. This process involves adaptively weighting the relabeled samples and leveraging both the clean and relabeled data to bootstrap model train- ing. Moreover, to bridge the domain gap further, we introduce the Accumulative Class Center Alignment (ACCA), a novel approach that fosters domain alignment through an accumu- lative domain loss mechanism. Thanks to SDAL and ACCA, our RoDA demonstrates its superiority in overcoming label noise and domain discrepancies within the NCIR paradigm. The effectiveness and robustness of our RoDA framework are comprehensively validated through extensive experiments across three multi-domain benchmarks.}
 }
 
@@ -35,8 +33,7 @@
   html={https://ojs.aaai.org/index.php/AAAI/article/view/28150},
   abstract={Driven by generative AI and the Internet, there is an increasing availability of a wide variety of images, leading to the significant and popular task of cross-domain image retrieval. To reduce annotation costs and increase performance, this paper focuses on an untouched but challenging problem, i.e., cross-domain image retrieval with partial labels (PCIR). Specifically, PCIR faces great challenges due to the ambiguous supervision signal and the domain gap. To address these challenges, we propose a novel method called disambiguated domain alignment (DiDA) for cross-domain retrieval with partial labels. In detail, DiDA elaborates a novel prototype-score unitization learning mechanism (PSUL) to extract common discriminative representations by simultaneously disambiguating the partial labels and narrowing the domain gap. Additionally, DiDA proposes a prototype-based domain alignment mechanism (PBDA) to further bridge the inherent cross-domain discrepancy. Attributed to PSUL and PBDA, our DiDA effectively excavates domain-invariant discrimination for cross-domain image retrieval. We demonstrate the effectiveness of DiDA through comprehensive experiments on three benchmarks, comparing it to existing state-of-the-art methods.},
   pages={3612--3620},
-  year={2024},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>}
+  year={2024}
 }
 
 @article{chen2024diffilter,
@@ -47,8 +44,7 @@
   abbr={IEEE TIFS},
   year={2024},
   publisher={IEEE},
-  html={https://ieeexplore.ieee.org/document/10584510},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
+  html={https://ieeexplore.ieee.org/document/10584510}
 }
 
 @article{sun2023hierarchical,
@@ -62,7 +58,6 @@
   publisher={IEEE},
   html={https://ieeexplore.ieee.org/abstract/document/10119165},
   code={https://github.com/sunyuan-cs/HCCH},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(ESI Highly Cited)</span>},
   abstract={Cross-modal hashing (CMH) has gained much attention due to its effectiveness and efficiency in facilitating efficient retrieval between different modalities. Whereas, most existing methods unconsciously ignore the hierarchical structural information of the data, and often learn a single-layer hash function to directly transform cross-modal data into common low-dimensional hash codes in one step. This sudden drop of dimension and the huge semantic gap can cause the discriminative information loss. To this end, we adopt a coarse-to-fine progressive mechanism and propose a novel Hierarchical Consensus Cross-Modal Hashing (HCCH) . Specifically, to mitigate the loss of important discriminative information, we propose a coarse-to-fine hierarchical hashing scheme that utilizes a two-layer hash function to refine the beneficial discriminative information gradually. And then, the ℓ2,1 -norm is imposed on the layer-wise hash function to alleviate the effects of redundant and corrupted features. Finally, we present consensus learning to effectively encode data into a consensus space in such a progressive way, thereby reducing the semantic gap progressively. Through extensive contrast experiments with some advanced CMH methods, the effectiveness and efficiency of our HCCH method are demonstrated on four benchmark datasets.}
 }
 
@@ -77,7 +72,6 @@
   abbr={IEEE TIP},
   html={https://ieeexplore.ieee.org/abstract/document/10341289},
   code={https://github.com/penghu-cs/DMLPA},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   abstract={This paper presents a novel method for supervised multi-view representation learning, which projects multiple views into a latent common space while preserving the discrimination and intrinsic structure of each view. Specifically, an apriori discriminant similarity graph is first constructed based on labels and pairwise relationships of multi-view inputs. Then, view-specific networks progressively map inputs to common representations whose affinity approximates the constructed graph. To achieve graph consistency, discrimination, and cross-view invariance, the similarity graph is enforced to meet the following constraints: 1) pairwise relationship should be consistent between the input space and common space for each view; 2) within-class similarity is larger than any between-class similarity for each view; 3) the inter-view samples from the same (or different) classes are mutually similar (or dissimilar). Consequently, the intrinsic structure and discrimination are preserved in the latent common space using an apriori approximation schema. Moreover, we present a sampling strategy to approach a sub-graph sampled from the whole similarity structure instead of approximating the graph of the whole dataset explicitly, thus benefiting lower space complexity and the capability of handling large-scale multi-view datasets. Extensive experiments show the promising performance of our method on five datasets by comparing it with 18 state-of-the-art methods.}
 }
 
@@ -92,7 +86,6 @@
   abbr={AAAI},
   html={https://ojs.aaai.org/index.php/AAAI/article/view/26215},
   code={https://github.com/wangxu-scu/CoDA},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   abstract={Cross-domain image retrieval aims at retrieving images across different domains to excavate cross-domain classificatory or correspondence relationships. This paper studies a less-touched problem of cross-domain image retrieval, i.e., unsupervised cross-domain image retrieval, considering the following practical assumptions: (i) no correspondence relationship, and (ii) no category annotations. It is challenging to align and bridge distinct domains without cross-domain correspondence. To tackle the challenge, we present a novel Correspondence-free Domain Alignment (CoDA) method to effectively eliminate the cross-domain gap through In-domain Self-matching Supervision (ISS) and Cross-domain Classifier Alignment (CCA). To be specific, ISS is presented to encapsulate discriminative information into the latent common space by elaborating a novel self-matching supervision mechanism. To alleviate the cross-domain discrepancy, CCA is proposed to align distinct domain-specific classifiers. Thanks to the ISS and CCA, our method could encode the discrimination into the domain-invariant embedding space for unsupervised cross-domain image retrieval. To verify the effectiveness of the proposed method, extensive experiments are conducted on four benchmark datasets compared with six state-of-the-art methods.}
 }
 
@@ -108,7 +101,6 @@
   abbr={IEEE TCSVT},
   html={https://ieeexplore.ieee.org/abstract/document/10098211},
   code={https://github.com/wangxu-scu/CA},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
   abstract={Zero-Shot Sketch-Based Image Retrieval (ZS-SBIR) is a rising theme with broad application prospects. Given the sketch image as a query, the goal of ZS-SBIR is to correctly retrieve the semantically similar images under the zero-shot scenario. The key is to project images from photo and sketch domains into a shared space, where the domain gap and semantic gap are effectively bridged. Most previous studies have approached ZS-SBIR as a classification problem and used classification loss to obtain discriminative features. However, these methods do not explicitly encourage the alignment of features, degrading the retrieval performance. To address this issue, this paper proposes a novel method called Cross-domain Alignment (CA) for ZS-SBIR. Specifically, we present a Large-margin Cross-domain Contrastive (LCC) loss to stimulate intra-class compactness and inter-class separability from both domains, motivated by the relationships of pairwise distances in metric learning. The loss boosts features’ alignment and enjoys more discrimination. Moreover, based on the “embedding stability” phenomenon of the neural network, we elaborate a Cross-batch Semantic Metric (CSM) mechanism for boosting the performance of ZS-SBIR. Extensive experiments demonstrate that the proposed CA achieves encouraging performance on the challenging Sketchy and TU-Berlin benchmarks.}
 }
 
@@ -124,7 +116,6 @@
   abbr={IEEE TPAMI},
   html={https://ieeexplore.ieee.org/abstract/document/10050111},
   code={https://github.com/penghu-cs/RCL},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   abstract={In this paper, we study a challenging but less-touched problem in cross-modal retrieval, i.e., partially mismatched pairs (PMPs). Specifically, in real-world scenarios, a huge number of multimedia data (e.g., the Conceptual Captions dataset) are collected from the Internet, and thus it is inevitable to wrongly treat some irrelevant cross-modal pairs as matched. Undoubtedly, such a PMP problem will remarkably degrade the cross-modal retrieval performance. To tackle this problem, we derive a unified theoretical Robust Cross-modal Learning framework (RCL) with an unbiased estimator of the cross-modal retrieval risk, which aims to endow the cross-modal retrieval methods with robustness against PMPs. In detail, our RCL adopts a novel complementary contrastive learning paradigm to address the following two challenges, i.e., the overfitting and underfitting issues. On the one hand, our method only utilizes the negative information which is much less likely false compared with the positive information, thus avoiding the overfitting issue to PMPs. However, these robust strategies could induce underfitting issues, thus making training models more difficult. On the other hand, to address the underfitting issue brought by weak supervision, we present to leverage of all available negative pairs to enhance the supervision contained in the negative information. Moreover, to further improve the performance, we propose to minimize the upper bounds of the risk to pay more attention to hard samples. To verify the effectiveness and robustness of the proposed method, we carry out comprehensive experiments on five widely-used benchmark datasets compared with nine state-of-the-art approaches w.r.t. the image-text and video-text retrieval tasks.}
 }
 
@@ -138,7 +129,6 @@
   publisher={IEEE},
   abbr={IEEE TIP},
   html={https://ieeexplore.ieee.org/abstract/document/10061433},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   abstract={With the development of video network, image set classification (ISC) has received a lot of attention and can be used for various practical applications, such as video based recognition, action recognition, and so on. Although the existing ISC methods have obtained promising performance, they often have extreme high complexity. Due to the superiority in storage space and complexity cost, learning to hash becomes a powerful solution scheme. However, existing hashing methods often ignore complex structural information and hierarchical semantics of the original features. They usually adopt a single-layer hashing strategy to transform high-dimensional data into short-length binary codes in one step. This sudden drop of dimension could result in the loss of advantageous discriminative information. In addition, they do not take full advantage of intrinsic semantic knowledge from whole gallery sets. To tackle these problems, in this paper, we propose a novel Hierarchical Hashing Learning (HHL) for ISC. Specifically, a coarse-to-fine hierarchical hashing scheme is proposed that utilizes a two-layer hash function to gradually refine the beneficial discriminative information in a layer-wise fashion. Besides, to alleviate the effects of redundant and corrupted features, we impose the ℓ2,1 norm on the layer-wise hash function. Moreover, we adopt a bidirectional semantic representation with the orthogonal constraint to keep intrinsic semantic information of all samples in whole image sets adequately. Comprehensive experiments demonstrate HHL acquires significant improvements in accuracy and running time.}
 }
 
@@ -163,7 +153,6 @@
   year={2022},
   abbr={ACM MM},
   html={https://dl.acm.org/doi/abs/10.1145/3503161.3547922},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   code={https://github.com/QinYang79/DECL},
   abstract={Cross-modal retrieval has been a compelling topic in the multimodal community. Recently, to mitigate the high cost of data collection, the co-occurred pairs (e.g., image and text) could be collected from the Internet as a large-scaled cross-modal dataset, e.g., Conceptual Captions. However, it will unavoidably introduce noise (i.e., mismatched pairs) into training data, dubbed noisy correspondence. Unquestionably, such noise will make supervision information unreliable/uncertain and remarkably degrade the performance. Besides, most existing methods focus training on hard negatives, which will amplify the unreliability of noise. To address the issues, we propose a generalized Deep Evidential Cross-modal Learning framework (DECL), which integrates a novel Cross-modal Evidential Learning paradigm (CEL) and a Robust Dynamic Hinge loss (RDH) with positive and negative learning. CEL could capture and learn the uncertainty brought by noise to improve the robustness and reliability of cross-modal retrieval. Specifically, the bidirectional evidence based on cross-modal similarity is first modeled and parameterized into the Dirichlet distribution, which not only provides accurate uncertainty estimation but also imparts resilience to perturbations against noisy correspondence. To address the amplification problem, RDH smoothly increases the hardness of negatives focused on, thus embracing higher robustness against high noise. Extensive experiments are conducted on three image-text benchmark datasets, i.e., Flickr30K, MS-COCO, and Conceptual Captions, to verify the effectiveness and efficiency of the proposed method.}
 }
@@ -178,7 +167,6 @@
   publisher={Elsevier},
   abbr={KNOWL-BASED SYST},
   html={https://www.sciencedirect.com/science/article/abs/pii/S0950705122011169},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
   abstract={Deep neural networks are vulnerable to interference categories, which can deceive trained models with imperceptible adversarial perturbations. More crucially, the transferability of adversarial samples has been confirmed, specifically, an adversarial sample crafted against a source agent model can transfer to other target models, which results in the adversary posing a security threat to applications in black-box scenarios. However, the existing transfer-based attacks merely consider a single agent model to create the adversarial samples, leading to poor transferability. In this paper, we propose a novel attack method called Multiagent Attacks Generate Interferential Category via GAN (MagicGAN). Specifically, to avoid the adversarial samples overfitting a single source agent, we design a multiagent discriminator, which can fit the decision boundaries of the various target models to provide more diversified gradient information for the generation of adversarial perturbations. Therefore, the generalization of our method is effectively improved, that is, the adversarial transferability of the adversarial sample is enhanced. In addition, to avoid the pattern collapse of the GAN-based adversarial approach, we construct a novel latent data distance constraint to enhance the compatibility between the latent adversarial sample distances and the corresponding data adversarial sample distances. Therefore, MagicGAN can more effectively generate a distribution close to the adversarial data. Extensive experiments on CelebA, CIFAR-10, MNIST and ImageNet fully validate the effectiveness and superiority of our proposed method.}
 }
 
@@ -193,7 +181,6 @@
   publisher={Elsevier},
   abbr={INFORM SCIENCES},
   html={https://www.sciencedirect.com/science/article/abs/pii/S0020025520307684},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
   code={https://github.com/wangxu-scu/DRSL},
   abstract={Cross-modal retrieval aims to retrieve relevant samples across different media modalities. Existing cross-modal retrieval approaches are contingent on learning common representations of all modalities by assuming that an equal amount of information exists in different modalities. However, since the quantity of information among cross-modal samples is unbalanced and unequal, it is inappropriate to directly match the obtained modality-specific representations across different modalities in a common space. In this paper, we propose a new method called Deep Relational Similarity Learning (DRSL) for cross-modal retrieval. Unlike existing approaches, the proposed DRSL aims to effectively bridge the heterogeneity gap of different modalities by directly learning the natural pairwise similarities instead of explicitly learning a common space. DRSL is a deep hybrid framework that integrates the relation networks module for relation learning, capturing the implicit nonlinear distance metric. To the best of our knowledge, DRSL is the first approach that incorporates relation networks into the cross-modal learning scenario. Comprehensive experimental results show that the proposed DRSL model achieves state-of-the-art results in cross-modal retrieval tasks on four widely-used benchmark datasets, i.e., Wikipedia, Pascal Sentences, NUS-WIDE-10K, and XMediaNet.}
 }
@@ -209,7 +196,6 @@
   publisher={IEEE},
   abbr={IEEE TCYB},
   html={https://ieeexplore.ieee.org/abstract/document/9086133/},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
   abstract={In many computer vision applications, an object can be represented by multiple different views. Due to the heterogeneous gap triggered by the different views’ inconsistent distributions, it is challenging to exploit these multiview data for cross-view retrieval and classification. Motivated by the fact that both labeled and unlabeled data can enhance the relations among different views, this article proposes a deep cross-view learning framework called deep semisupervised classes- and correlation-collapsed cross-view learning (DSC3L) for cross-view retrieval and classification. Different from the existing methods which focus on the two-view problems, the proposed method learns U (generally U≥2 ) view-specific deep transformations to gradually project U different views into a shared space in which the projection embraces the supervised learning and the unsupervised learning. We propose collapsing the instances of the same class from all views into the same point, with the instances of different classes into distinct points simultaneously. Second, to exploit the abundant unlabeled U-wise multiview data, we propose to collapse-correlated data into the same point, with the uncorrelated data into distinct points. Specifically, these two processes are formulated to minimize the two Kullback-Leibler (KL) divergences between the conditional distribution and a desirable one, for each instance. Finally, the two KL divergences are integrated into a joint optimization to learn a discriminative shared space. The experimental results on five widely used public datasets demonstrate the effectiveness of the proposed method.}
 }
 
@@ -221,7 +207,6 @@
   year={2019},
   abbr={CVPR},
   html={http://openaccess.thecvf.com/content_CVPR_2019/html/Zhen_Deep_Supervised_Cross-Modal_Retrieval_CVPR_2019_paper.html},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   code={https://github.com/penghu-cs/DSCMR},
   abstract={Cross-modal retrieval aims to enable flexible retrieval across different modalities. The core of cross-modal retrieval is how to measure the content similarity between different types of data. In this paper, we present a novel cross-modal retrieval method, called Deep Supervised Cross-modal Retrieval (DSCMR). It aims to find a common representation space, in which the samples from different modalities can be compared directly. Specifically, DSCMR minimises the discrimination loss in both the label space and the common representation space to supervise the model learning discriminative features. Furthermore, it simultaneously minimises the modality invariance loss and uses a weight sharing strategy to eliminate the cross-modal discrepancy of multimedia data in the common representation space to learn modality-invariant features. Comprehensive experimental results on four widely-used benchmark datasets demonstrate that the proposed method is effective in cross-modal learning and significantly outperforms the state-of-the-art cross-modal retrieval methods.}
 }
@@ -234,7 +219,6 @@
   year={2019},
   abbr={ACM MM},
   html={https://dl.acm.org/doi/abs/10.1145/3343031.3351078},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(CCF-A)</span>},
   abstract={Cross-modal hashing, due to its low storage cost and high query speed, has been successfully used for similarity search in multimedia retrieval applications. It projects high-dimensional data into a shared isomorphic Hamming space with similar binary codes for semantically-similar data. In some applications, all modalities may not be obtained or trained simultaneously for some reasons, such as privacy, secret, storage limitation, and computational resource limitation. However, most existing cross-modal hashing methods need all modalities to jointly learn the common Hamming space, thus hindering them from handling these problems. In this paper, we propose a novel approach called Separated Variational Hashing Networks (SVHNs) to overcome the above challenge. Firstly, it adopts a label network (LabNet) to exploit available and nonspecific label annotations to learn a latent common Hamming space by projecting each semantic label into a common binary representation. Then, each modality-specific network can separately map the samples of the corresponding modality into their binary semantic codes learned by LabNet. We achieve it by conducting variational inference to match the aggregated posterior of the hashing code of LabNet with an arbitrary prior distribution. The effectiveness and efficiency of our SVHNs are verified by extensive experiments carried out on four widely-used multimedia databases, in comparison with 11 state-of-the-art approaches.}
 }
 
@@ -248,6 +232,5 @@
   publisher={Elsevier},
   abbr={KNOWL-BASED SYST},
   html={https://www.sciencedirect.com/science/article/abs/pii/S0950705119300176},
-  additional_info={&nbsp; <span style="color: red; font-weight: bold;">(JCR-Q1)</span>},
   abstract={To eliminate the view discrepancy of multi-view data due to different distributions, the key is to learn the common representation for multi-view data in many practical applications. To achieve the end, we propose a novel unsupervised multi-view representation learning method (called Adversarial Correlated AutoEncoder, AdvCAE). In brief, AdvCAE utilizes a deep structure to achieve nonlinear representation and adversarial learning scheme for distribution matching. To be specific, AdvCAE performs like an adversarial autoencoder (AAE) which could conduct variational inference by matching the aggregated posteriors of the latent variable with a specific prior distribution. Benefiting from our model, the representations of different views could follow the same distribution, thus learning the common representation for different views. To the best of our knowledge, AdvCAE could be one of the first unsupervised multi-view representation learning approaches that work in the manner of adversarial learning. To verify the effectiveness of the proposed method, we conduct experiments on five public real-world datasets w.r.t. the applications of cross-view classification and cross-view retrieval tasks. The experimental results show that our method remarkably outperforms than 15 state-of-the-art methods.}
 }
