@@ -200,6 +200,14 @@ My research interests revolve around machine learning and its applications. Rela
           </td>
         </tr>
         <tr>
+          <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            02/2023:
+          </td>
+          <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            One paper was accepted by <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI)</strong>.
+          </td>
+        </tr>
+        <tr>
           <td width="60" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
             12/2022:
           </td>
