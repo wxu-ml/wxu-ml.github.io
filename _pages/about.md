@@ -87,9 +87,7 @@ My research interests revolve around machine learning and its applications. Rela
       from Sichuan University in 2015 and 2021, respectively. I was a Joint
       Ph.D at the Australian Institute for Machine Learning (AIML), University
       of Adelaide, Australia, funded by the China Scholarship Council from
-      2019 to 2021. I am also a Visiting Research Scientist at the Centre for
-      Frontier AI Research (CFAR), Agency for Science, Technology and Research
-      (A*STAR), Singapore.
+      2019 to 2021. 
     </p>
     <p align="justify" style="font-size: 16px; margin-top: 10px;">
       My research interests revolve around machine learning and its
