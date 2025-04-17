@@ -137,6 +137,42 @@ My research interests revolve around machine learning and its applications. Rela
       <tbody>
         <tr>
           <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            04/2025:
+          </td>
+          <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            I will serve as the Program Committee for the <strong><a href="https://neurips.cc/">The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)</a></strong>, which will be
+            held in San Diego, USA from 2nd Dec, 2025 - 7th Dec, 2025.
+          </td>
+        </tr>
+        <tr>
+          <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            03/2025:
+          </td>
+          <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            I will serve as the Program Committee for the <strong><a href="https://2025.aclweb.org/">The 63rd Annual Meeting of the Association for Computational Linguistics (ACL 2025)</a></strong>, which will be
+            held in Vienna, Austria from 27th July to 1st August, 2025.
+          </td>
+        </tr>
+        <tr>
+          <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            02/2025:
+          </td>
+          <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            I will serve as the Program Committee for the <strong><a href="https://acmmm2025.org/">33rd ACM International Conference on Multimedia (ACM MM 2025)</a></strong>, which will be
+            held in Dublin, Ireland from 27th October, 2025 to 31st October, 2025.
+          </td>
+        </tr>
+        <tr>
+          <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            12/2024:
+          </td>
+          <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            I will serve as the Program Committee for the <strong><a href="https://icml.cc/">Forty-Second International Conference on Machine Learning (ICML 2025)</a></strong>, which will be
+            held in Vancouver, Canada from 13th July, 2025 - 19th July, 2025.
+          </td>
+        </tr>
+        <tr>
+          <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
             12/2024:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
