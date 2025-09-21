@@ -1,14 +1,11 @@
 ---
----
 @inproceedings{su2025NACD,
   title={Neighbor-aware Contrastive Disambiguation for Cross-Modal Hashing with Redundant Annotations},
   author={Chao Su and Likang Peng and Yuan Sun and Dezhong Peng and Xi Pengand Xu Wang*},
   booktitle={Neural Information Processing Systems},
   year={2025},
   abbr={NeurIPS (Spotlight)},
-  html={},
-  code={},
-  abstract = {
+  abstract = {Cross-modal hashing aims to efficiently retrieve information across different modalities by mapping data into compact hash codes. However, most existing methods assume access to fully accurate supervision, which rarely holds in real-world scenarios. Instead, annotations are often redundant, i.e., each sample is associated with a set of candidate labels that includes both ground-truth and redundant noisy entries. Treating all annotated labels as equally valid introduces two critical issues: (1) the sparse presence of true labels within the label set is not explicitly addressed, leading to overfitting on redundant noisy annotations; (2) redundant noisy labels induce spurious similarities that distort semantic alignment across modalities and degrade the quality of the hash space. To address these challenges, we propose that effective cross-modal hashing requires explicitly identifying and leveraging the true label subset within the entire annotations. Based on this insight, we present Neighbor-aware Contrastive Disambiguation (NACD), a novel framework designed for robust learning under redundant supervision. NACD introduces two key components. The first, Neighbor-aware Confidence Reconstruction (NACR), refines label confidence by aggregating information from cross-modal neighbors to distinguish true labels from redundant noisy ones. The second, Class-aware Robust Contrastive Hashing (CRCH), constructs reliable positive and negative pairs based on label confidence scores, which significantly improves robustness against noisy supervision. Moreover, to effectively reduce the quantization error, we introduce an innovative quantization loss that enforces binary constraints on the learned hash representations. Extensive experiments on three large-scale multimodal benchmarks demonstrate that our method consistently achieves superior performance over state-of-the-art approaches, setting a new standard for cross-modal hashing with redundant annotations.
   }
 @inproceedings{su2025dica,
   title={DiCA: Disambiguated Contrastive Alignment for Cross-Modal Retrieval with Partial Labels},
