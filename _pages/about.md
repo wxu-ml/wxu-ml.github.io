@@ -137,6 +137,14 @@ My research interests revolve around machine learning and its applications. Rela
       <tbody>
         <tr>
           <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            12/2024:
+          </td>
+          <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            One papers were accepted by <strong> Neural Information Processing Systems (NeurIPS 2025)</strong> as <strong>Spotlight (acceptance rate=3.19%)</strong>.
+          </td>
+        </tr>
+        <tr>
+          <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
             04/2025:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
