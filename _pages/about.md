@@ -140,7 +140,7 @@ My research interests revolve around machine learning and its applications. Rela
             09/2025:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            One papers was accepted by <strong> Neural Information Processing Systems (NeurIPS 2025)</strong> as <strong>Spotlight (acceptance rate=3.19%)</strong>.
+            One paper was accepted by <strong> Neural Information Processing Systems (NeurIPS 2025)</strong> as <strong>Spotlight (acceptance rate=3.19%)</strong>.
           </td>
         </tr>
         <tr>
