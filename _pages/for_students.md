@@ -1,16 +1,30 @@
+---
+layout: page
+title: For Students
+permalink: /for_students/
+description: 导师理念、招生说明与科研文化
+nav: true
+nav_order: 6
+display_categories: [for_students]
+horizontal: false
+---
+
+<!-- ====== 字体与排版优化 ====== -->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 body {
-  font-family: "SF Pro Display", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  font-family: "Noto Sans SC", "SF Pro Display", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
   font-size: 17px;
   line-height: 1.8;
   color: #222;
   letter-spacing: 0.2px;
 }
 
-h1, h2, h3, h4 {
-  font-family: "SF Pro Display", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+h1, h2, h3, h4, h5 {
+  font-family: "Noto Sans SC", "SF Pro Display", "PingFang SC", "Helvetica Neue", sans-serif;
   font-weight: 600;
   color: #111;
+  margin-top: 1.8em;
 }
 
 strong {
@@ -31,20 +45,16 @@ blockquote {
   border-left: 4px solid #007acc;
   padding-left: 10px;
   font-style: italic;
+  background-color: #f9f9f9;
+}
+
+code, pre {
+  font-family: "JetBrains Mono", "Menlo", monospace;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  padding: 3px 6px;
 }
 </style>
-
-
----
-layout: page
-title: For Students
-permalink: /for_students/
-description: 
-nav: true
-nav_order: 6
-display_categories: [for_students]
-horizontal: false
----
 
 
 # 🌍 我相信科研是一场共同的探索
