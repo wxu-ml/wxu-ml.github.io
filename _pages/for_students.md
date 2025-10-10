@@ -1,3 +1,40 @@
+<style>
+body {
+  font-family: "SF Pro Display", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #222;
+  letter-spacing: 0.2px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "SF Pro Display", "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 600;
+  color: #111;
+}
+
+strong {
+  color: #000;
+}
+
+em {
+  color: #555;
+}
+
+ul, ol {
+  margin-left: 1.2em;
+}
+
+blockquote {
+  font-family: "Georgia", "Songti SC", serif;
+  color: #555;
+  border-left: 4px solid #007acc;
+  padding-left: 10px;
+  font-style: italic;
+}
+</style>
+
+
 ---
 layout: page
 title: For Students
@@ -101,7 +138,7 @@ horizontal: false
 ## 💬 实验室文化
 
 - **自由而自律**：不打卡、不考勤。成果来自责任感，而非制度约束。  
-- **科研导向**：不以项目数量为标准，而以研究质量和创新性为核心。  
+- **科研导向**：不以数量为标准，而以研究质量和创新性为核心。  
 - **合作与分享**：实验室公共事务（如服务器管理、资料维护）由成员轮流负责。  
 - **成长导向**：无论是否继续深造，都希望你在这里找到自己的方向。
 
@@ -111,8 +148,8 @@ horizontal: false
 
 我并不是“push 型”导师。  
 我相信真正的科研来自内在的热情，而非外部压力。  
-但我也会根据学生的状态灵活调整——  
-当你需要空间，我会退后；当你需要方向，我会在场。
+但我可能也会根据学生的状态灵活调整——  
+当你懈怠时，我会给予鼓励；当你需要方向时，我会在场。
 
 ---
 
