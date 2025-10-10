@@ -1,3 +1,15 @@
+---
+layout: page
+title: For Students
+permalink: /for_students/
+description: 
+nav: true
+nav_order: 6
+display_categories: [for_students]
+horizontal: false
+---
+
+
 # 🌍 我相信科研是一场共同的探索
 
 科研并不是一条单向的路。  
