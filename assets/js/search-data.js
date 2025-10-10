@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
+        },{id: "nav-for-students",
+          title: "For Students",
+          description: "导师理念、招生说明与科研文化",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/for_students/";
+          },
         },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
