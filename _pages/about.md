@@ -138,7 +138,7 @@ My research interests revolve around machine learning and its applications. Rela
         
         <tr>
           <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            12/2024:
+            12/2025:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
             Three papers (2 orals, 1 poster) were accepted by <strong>The AAAI Conference on Artificial
