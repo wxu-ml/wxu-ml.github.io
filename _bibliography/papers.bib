@@ -1,5 +1,39 @@
 ---
 ---
+@inproceedings{li2026scbch,
+  title={Learning Beyond Domains: Misleading Prompts and Pseudo-Label Contrast for Text Domain Generalization},
+  author={Qizhi Li and Xuyang Wang and Yingke Chen and Ming Yan and Dezhong Peng and Xi Peng and Xu Wang*},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026},
+  abbr={AAAI (oral)},
+  html={},
+  code={https://github.com/Balding-Lee/GenPromptCL},
+  abstract = {Recent advancements in Pre-trained Language Models (PLMs) have significantly enhanced performance across various Natural Language Processing (NLP) tasks. However, the variability in data distributions across different domains presents challenges in generalizing these models to unseen domains. Domain generalization offers a promising solution, but existing text domain generalization methods typically rely on adversarial training to learn domain-invariant features, which often leads to models with high computational and memory overhead. To address this issue, this paper proposes a novel solution named Generalization via Prompts and Contrastive Learning (GenPromptCL) to enhance the generalization capability in domain generalization. GenPromptCL consists of two key components: Domain-Misleading Prompt Learning (DMPL) and Pseudo Label-based Contrastive Learning (PCL). Specifically, DMPL disrupts domain labels randomly, misleading the model into producing incorrect domain labels. This forces the model to learn domain-invariant features. Meanwhile, PCL generates pseudo labels within a single mini-batch, enabling the model to learn both intra-class and inter-class discriminative representations with low time and space complexity. Extensive experimental results demonstrate that GenPromptCL achieves state-of-the-art performance on three distinct text classification tasks (sentiment analysis, rumor detection, and natural language inference) while significantly improving model operation efficiency.
+}
+
+@inproceedings{peng2026scbch,
+  title={Semantic-Consistent Bidirectional Contrastive Hashing for Noisy Multi-Label Cross-Modal Retrieval},
+  author={Likang Peng and Chao Su and Wenyuan Wu and Yuan Sun and Dezhong Peng and Xi Peng and Xu Wang*},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026},
+  abbr={AAAI (poster)},
+  html={},
+  code={https://github.com/Plke/SCBCH},
+  abstract = {Cross-modal hashing (CMH) facilitates efficient retrieval across different modalities (e.g., image and text) by encoding data into compact binary representations. While recent methods have achieved remarkable performance, they often rely heavily on fully annotated datasets, which are costly and labor-intensive to obtain. In real-world scenarios, particularly in multi-label datasets, label noise is prevalent and severely degrades retrieval performance. Moreover, existing CMH approaches typically overlook the partial semantic overlaps inherent in multi-label data, limiting their robustness and generalization. To tackle these challenges, we propose a novel framework named Semantic-Consistent Bidirectional Contrastive Hashing (SCBCH). The framework comprises two complementary modules: (1) Cross-modal Semantic-Consistent Classification (CSCC), which leverages cross-modal semantic consistency to estimate sample reliability and reduce the impact of noisy labels; (2) Bidirectional Soft Contrastive Hashing (BSCH), which dynamically generates soft contrastive sample pairs based on multi-label semantic overlap, enabling adaptive contrastive learning between semantically similar and dissimilar samples across modalities. Extensive experiments on four widely-used cross-modal retrieval benchmarks validate the effectiveness and robustness of our method, consistently outperforming state-of-the-art approaches under noisy multi-label conditions.
+}
+
+@inproceedings{su2026atch,
+  title={Ambiguity-Tolerant Cross-Modal Hashing with Partial Labels},
+  author={Chao Su and Yanan Li and Xu Wang and Yingke Chen and Huiming Zheng and Dezhong Peng and Yuan Sun},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2026},
+  abbr={AAAI (oral)},
+  html={},
+  code={},
+  abstract = {Cross-modal hashing (CMH) achieves remarkable success in large-scale cross-modal retrieval thanks to its low storage cost and high computational efficiency. However, existing CMH methods typically rely on accurately annotated data. Due to the high annotation cost and the time-consuming process, this inevitably leads to noisy labels. Although some noisy label learning methods have been proposed to mitigate performance degradation caused by annotation errors, they do not reflect the real annotation process. In practice, annotators tend to assign a candidate label set to a sample pair instead of a single unreliable label, due to inherent ambiguity and noise in real-world data annotation. In this paper, we investigate a less-touched yet meaningful problem, i.e., cross-modal hashing with partial labels (PLCMH). PLCMH faces the dual challenges of label ambiguity and modality-alignment barriers caused by redundant noisy labels. To address these issues, we propose a novel approach named Ambiguity-Tolerant Cross-Modal Hashing (ATCH). Specifically, ATCH presents a Local Consensus Disambiguation (LCD) mechanism that resolves the label ambiguity by computing the sample pair label confidence based on local consensus. Moreover, ATCH proposes a Confidence-Aware Contrastive Hashing (CACH) mechanism that derives both pseudo labels and trustworthiness scores from the label confidence vector to learn discriminative hash codes, leading to effective modality alignment. Extensive experiments on three benchmark datasets demonstrate the superiority of the proposed ATCH.
+}
+
+
 
 @inproceedings{su2025dica,
   title={DiCA: Disambiguated Contrastive Alignment for Cross-Modal Retrieval with Partial Labels},
