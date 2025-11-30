@@ -33,7 +33,17 @@
   abstract = {Cross-modal hashing (CMH) achieves remarkable success in large-scale cross-modal retrieval thanks to its low storage cost and high computational efficiency. However, existing CMH methods typically rely on accurately annotated data. Due to the high annotation cost and the time-consuming process, this inevitably leads to noisy labels. Although some noisy label learning methods have been proposed to mitigate performance degradation caused by annotation errors, they do not reflect the real annotation process. In practice, annotators tend to assign a candidate label set to a sample pair instead of a single unreliable label, due to inherent ambiguity and noise in real-world data annotation. In this paper, we investigate a less-touched yet meaningful problem, i.e., cross-modal hashing with partial labels (PLCMH). PLCMH faces the dual challenges of label ambiguity and modality-alignment barriers caused by redundant noisy labels. To address these issues, we propose a novel approach named Ambiguity-Tolerant Cross-Modal Hashing (ATCH). Specifically, ATCH presents a Local Consensus Disambiguation (LCD) mechanism that resolves the label ambiguity by computing the sample pair label confidence based on local consensus. Moreover, ATCH proposes a Confidence-Aware Contrastive Hashing (CACH) mechanism that derives both pseudo labels and trustworthiness scores from the label confidence vector to learn discriminative hash codes, leading to effective modality alignment. Extensive experiments on three benchmark datasets demonstrate the superiority of the proposed ATCH.}
 }
 
-
+@inproceedings{su2025nacd,
+  title={Neighbor-aware Contrastive Disambiguation for Cross-Modal Hashing with Redundant Annotations},
+  author={Chao Su and Likang Peng and Yuan Sun and Dezhong Peng and Xi Peng and Xu Wang*},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  year={2025},
+  abbr={NeurIPS},
+  abbr={NeurIPS (Spotlight)},
+  html={https://openreview.net/pdf?id=Bi1udlTjMb},
+  code={https://github.com/Rose-bud/NACD},
+  abstract = {Cross-modal retrieval aims to retrieve relevant data across different modalities. Driven by costly massive labeled data, existing cross-modal retrieval methods achieve encouraging results. To reduce annotation costs while maintaining performance, this paper focuses on an untouched but challenging problem, i.e., cross-modal retrieval with partial labels (PLCMR). PLCMR faces the dual challenges of annotation ambiguity and modality gap. To address these challenges, we propose a novel method termed disambiguated contrastive alignment (DiCA) for cross-modal retrieval with partial labels. Specifically, DiCA proposes a novel non-candidate boosted disambiguation learning mechanism (NBDL), which elaborately balances the trade-off between the losses on candidate and non-candidate labels that eliminate label ambiguity and narrow the modality gap. Moreover, DiCA presents an instance-prototype representation learning mechanism (IPRL) to enhance the model by further eliminating the modality gap at both the instance and prototype levels. Thanks to NBDL and IPRL, our DiCA effectively ad- dresses the issues of annotation ambiguity and modality gap for cross-modal retrieval with partial labels. Experiments on four benchmarks validate the effectiveness of our proposed method, which demonstrates enhanced performance over existing state-of-the-art methods.}
+}
 
 @inproceedings{su2025dica,
   title={DiCA: Disambiguated Contrastive Alignment for Cross-Modal Retrieval with Partial Labels},
