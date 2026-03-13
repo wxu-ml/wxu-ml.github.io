@@ -82,7 +82,7 @@ My research interests revolve around machine learning and its applications. Rela
   <div style="flex: 1; width: 100%;">
     <p align="justify" style="font-size: 16px; margin: 0;">
       Welcome to my homepage! I am Dr. Xu Wang (王旭 in Chinese). I am currently an
-      Associate Researcher at the College of Computer Science, Sichuan
+      Associate Professor at the College of Computer Science, Sichuan
       University, Chengdu, China. I received the B.E. degree and Ph.D. degree
       from Sichuan University in 2015 and 2021, respectively. I was a Joint
       Ph.D at the Australian Institute for Machine Learning (AIML), University
@@ -160,7 +160,7 @@ My research interests revolve around machine learning and its applications. Rela
             09/2025:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            One paper was accepted by <strong>The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)</strong> as Spotlight (accepatance rate=3.19%)!.
+            One paper was accepted by <strong>The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)</strong> as Spotlight (accepatance rate=3.19%)!
           </td>
         </tr>
         
