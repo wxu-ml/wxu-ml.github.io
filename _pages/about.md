@@ -141,7 +141,7 @@ My research interests revolve around machine learning and its applications. Rela
             01/2026:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            I will serve as the Senior Program Committee (SPC) for the <strong>35th International Joint Conference on Artificial Intelligence - 29th European Conference on Artificial Intelligence (IJCAI-ECAI 2026)</strong>, which will be held in Bremen, Germany, on 15-21 of August 2026.
+            I will serve as the Senior Program Committee (SPC) for the <strong>35th International Joint Conference on Artificial Intelligence (IJCAI 2026)</strong>, which will be held in Bremen, Germany, on 15-21 of August 2026.
           </td>
         </tr>
         
