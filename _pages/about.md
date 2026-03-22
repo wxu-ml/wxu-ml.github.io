@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 <!-- <div class="boxmine" style="width:100%;">
 <p align="justify" style="font-size: 17px;">
-Welcome to my homepage! I am Dr. Xu Wang (王旭). I am currently an Associate Researcher/Professor at the College of Computer Science, Sichuan University. I received the B.E. degree and Ph.D. degree from Sichuan University in 2015 and 2021, respectively. I was a Joint Ph.D at the Australian Institute for Machine Learning (AIML), University of Adelaide, funded by the China Scholarship Council from 2019 to 2021. 
+Welcome to my homepage! I am Dr. Xu Wang. I am currently an Associate Professor at the College of Computer Science, Sichuan University. I received the B.E. degree and Ph.D. degree from Sichuan University in 2015 and 2021, respectively. I was a Joint Ph.D at the Australian Institute for Machine Learning (AIML), University of Adelaide, funded by the China Scholarship Council from 2019 to 2021. 
 </p>
 
 <p align="justify" style="font-size: 17px;">
@@ -81,13 +81,7 @@ My research interests revolve around machine learning and its applications. Rela
   <!-- 文本部分 -->
   <div style="flex: 1; width: 100%;">
     <p align="justify" style="font-size: 16px; margin: 0;">
-      Welcome to my homepage! I am Dr. Xu Wang (王旭 in Chinese). I am currently an
-      Associate Professor at the College of Computer Science, Sichuan
-      University, Chengdu, China. I received the B.E. degree and Ph.D. degree
-      from Sichuan University in 2015 and 2021, respectively. I was a Joint
-      Ph.D at the Australian Institute for Machine Learning (AIML), University
-      of Adelaide, Australia, funded by the China Scholarship Council from
-      2019 to 2021. I am also a visiting Research Scientist at A*STAR Centre for Frontier AI Research (A*STAR CFAR), Singapore.
+      Welcome to my homepage! I am Dr. Xu Wang, an Associate Professor at the College of Computer Science, Sichuan University, Chengdu, China. I received both my B.E. and Ph.D. degrees from Sichuan University in 2015 and 2021, respectively. During my doctoral studies, I was a Joint Ph.D. student at the Australian Institute for Machine Learning (AIML), University of Adelaide, Australia, from 2019 to 2021. I am also a Visiting Research Scientist at the ASTAR Centre for Frontier AI Research (ASTAR CFAR), Singapore.
     </p>
     <p align="justify" style="font-size: 16px; margin-top: 10px;">
       My research interests revolve around machine learning and its
