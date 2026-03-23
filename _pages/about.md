@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Associate Researcher @ College of Computer Science, Sichuan University
+subtitle: Associate Professor @ College of Computer Science, Sichuan University
 
 # profile:
 #   align: left
