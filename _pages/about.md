@@ -130,6 +130,15 @@ My research interests revolve around machine learning and its applications. Rela
     >
       <tbody>
 
+  <tr>
+          <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            01/2026:
+          </td>
+          <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            I was hornered to be invited to serve as the Associate Editor for the <strong>Pattern Recognition (一区Top, CCF B)</strong>.
+          </td>
+        </tr>
+  
     <tr>
           <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
             01/2026:
