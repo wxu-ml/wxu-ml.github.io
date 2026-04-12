@@ -135,7 +135,7 @@ My research interests revolve around machine learning and its applications. Rela
             01/2026:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            I was hornered to be invited to serve as the Associate Editor for the <strong>Pattern Recognition (一区Top, CCF B)</strong>.
+            I was honored to be invited to serve as the Associate Editor for the <strong>Pattern Recognition (一区Top, CCF B)</strong>.
           </td>
         </tr>
   
