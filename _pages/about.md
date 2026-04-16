@@ -135,6 +135,14 @@ My research interests revolve around machine learning and its applications. Rela
             04/2026:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            I am deeply honored to be invited to join the Youth Editorial Board for <strong>CAAI Transactions on Intelligent Systems （CAAI TRIS） (CCF T2)</strong>.
+          </td>
+        </tr>
+  <tr>
+          <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            04/2026:
+          </td>
+          <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
             I am deeply honored to be invited to serve as an Associate Editor for <strong>Pattern Recognition (CAS Rank Q1, JCR Q1, CCF B)</strong>.
           </td>
         </tr>
