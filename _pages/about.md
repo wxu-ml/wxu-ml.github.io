@@ -6,7 +6,7 @@ subtitle: Associate Professor @ College of Computer Science, Sichuan University
 
 # profile:
 #   align: left
-#   image: wangxu.jpg
+#   image: wangxu_new.jpg
 #   image_circular: false # crops the image to make it circular
   # more_info: >
   #   <p>555 your office number</p>
