@@ -81,7 +81,7 @@ My research interests revolve around machine learning and its applications. Rela
   <!-- 文本部分 -->
   <div style="flex: 1; width: 100%;">
     <p align="justify" style="font-size: 16px; margin: 0;">
-      Welcome to my homepage! I am Dr. Xu Wang, an Associate Professor at the College of Computer Science, Sichuan University, Chengdu, China. I received both my B.E. and Ph.D. degrees from Sichuan University in 2015 and 2021, respectively. During my doctoral studies, I was a Joint Ph.D. student at the Australian Institute for Machine Learning (AIML), University of Adelaide, Australia, from 2019 to 2021. I am also a Visiting Research Scientist at the ASTAR Centre for Frontier AI Research (ASTAR CFAR), Singapore.
+      Welcome to my homepage! I am Dr. Xu Wang, an Associate Professor at the College of Computer Science, Sichuan University, Chengdu, China. I received both my B.E. and Ph.D. degrees from Sichuan University in 2015 and 2021, respectively. During my doctoral studies, I was a Joint Ph.D. student at the Australian Institute for Machine Learning (AIML), University of Adelaide, Australia, from 2019 to 2021. I am also a Visiting Research Scientist at the A*STAR Centre for Frontier AI Research (A*STAR CFAR), Singapore.
     </p>
     <p align="justify" style="font-size: 16px; margin-top: 10px;">
       My research interests revolve around machine learning and its
