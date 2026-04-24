@@ -108,7 +108,7 @@ My research interests revolve around machine learning and its applications. Rela
       text-align-last: left;
     "
   >
-    I am recruiting <span style="color: #d32f2f;">Self-Motivated and Hardworking</span> Master’s and Undergraduate Students with a <span style="color: #d32f2f;">Solid foundation</span> to join our research team. If you are interested, please contact me by email. 持续招收<span style="color: #d32f2f;">基础良好、踏实努力、具有强大自驱力</span>的硕士生和本科生加入课题组。
+    I am recruiting <span style="color: #d32f2f;">Self-Motivated and Hardworking</span> Master’s and Undergraduate Students with a <span style="color: #d32f2f;">Solid foundation</span> to join our research team. If you are interested, please contact me by email. 持续招收<span style="color: #d32f2f;">基础良好、踏实努力、具有强大自驱力</span>的研究生和本科生加入课题组。
   </p>
 </div>
 
