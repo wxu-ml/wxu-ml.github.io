@@ -50,65 +50,84 @@ My research interests revolve around machine learning and its applications. Rela
     border: 2px solid #cccccc;
     border-radius: 8px;
     padding: 16px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 16px;
+    box-sizing: border-box;
   "
 >
-  <!-- 图片部分 -->
+  <!-- 上方：图片 + 个人介绍 -->
   <div
+    class="top-row"
     style="
-      flex: 0 0 auto;
-      max-width: 270px; /* 限制图片最大宽度 */
-      text-align: center;
-      width: 100%; /* 在移动端下占满宽度 */
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 16px;
     "
   >
-    <img
-      src="assets/img/wangxu_new3.png"
-      alt="Xu Wang"
+    <!-- 图片部分 -->
+    <div
       style="
-        width: 100%;
-        height: auto; /* 保持图片比例 */
-        max-width: 270px; /* 限制图片最大宽度 */
-        border-radius: 8px;
-        object-fit: cover; /* 确保图片不拉伸变形 */
+        flex: 0 0 270px;
+        max-width: 270px;
+        text-align: center;
       "
-    />
+    >
+      <img
+        src="assets/img/wangxu_new3.png"
+        alt="Xu Wang"
+        style="
+          width: 100%;
+          height: auto;
+          max-width: 270px;
+          border-radius: 8px;
+          object-fit: cover;
+        "
+      />
+    </div>
+
+    <!-- 右侧文本部分 -->
+    <div style="flex: 1; min-width: 280px;">
+      <p style="font-size: 16px; margin: 0; text-align: justify;">
+        Welcome to my homepage! I am Dr. Xu Wang, an Associate Professor at the College of Computer Science, Sichuan University, Chengdu, China. I received both my B.E. and Ph.D. degrees from Sichuan University in 2015 and 2021, respectively. During my doctoral studies, I was a Joint Ph.D. student at the Australian Institute for Machine Learning (AIML), University of Adelaide, Australia, from 2019 to 2021. I am also a Visiting Research Scientist at the A*STAR Centre for Frontier AI Research (A*STAR CFAR), Singapore.
+      </p>
+
+      <p style="font-size: 16px; margin-top: 10px; text-align: justify;">
+        My research interests revolve around machine learning and its
+        applications. Related research topics include Robust AI, Effecient AI,
+        Multimodal Learning, Cross-domain Learning, and more.
+      </p>
+    </div>
   </div>
 
-  <!-- 文本部分 -->
-  <div style="flex: 1; width: 100%;">
-    <p align="justify" style="font-size: 16px; margin: 0;">
-      Welcome to my homepage! I am Dr. Xu Wang, an Associate Professor at the College of Computer Science, Sichuan University, Chengdu, China. I received both my B.E. and Ph.D. degrees from Sichuan University in 2015 and 2021, respectively. During my doctoral studies, I was a Joint Ph.D. student at the Australian Institute for Machine Learning (AIML), University of Adelaide, Australia, from 2019 to 2021. I am also a Visiting Research Scientist at the A*STAR Centre for Frontier AI Research (A*STAR CFAR), Singapore.
-    </p>
-    <p align="justify" style="font-size: 16px; margin-top: 10px;">
-      My research interests revolve around machine learning and its
-      applications. Related research topics include Robust AI, Effecient AI,
-      Multimodal Learning, Cross-domain Learning, and more.
-    </p>
-    <p style="font-size: 16px; margin-top: 10px; text-align: justify; text-align-last: left;">
-      I am recruiting <span style="color: #d32f2f;">Self-Motivated and Hardworking</span> Master’s and Undergraduate Students with a <span style="color: #d32f2f;">Solid foundation</span> to join our research team. If you are interested, please contact me by email. 持续招收<span style="color: #d32f2f;">基础良好、踏实努力、具有强大自驱力</span>的硕士生和本科生加入课题组。
+  <!-- 下方：招聘信息，放在图片下面 -->
+  <p
+    style="
+      font-size: 16px;
+      margin-top: 10px;
+      margin-bottom: 0;
+      text-align: justify;
+      text-align-last: left;
+    "
+  >
+    I am recruiting <span style="color: #d32f2f;">Self-Motivated and Hardworking</span> Master’s and Undergraduate Students with a <span style="color: #d32f2f;">Solid foundation</span> to join our research team. If you are interested, please contact me by email. 持续招收<span style="color: #d32f2f;">基础良好、踏实努力、具有强大自驱力</span>的硕士生和本科生加入课题组。
   </p>
-  </div>
 </div>
 
-<!-- 添加媒体查询 -->
 <style>
   @media (max-width: 768px) {
-    .boxmine {
-      flex-direction: column; /* 在小屏幕上图片和文本垂直排列 */
+    .top-row {
+      flex-direction: column;
       align-items: center;
     }
-    .boxmine img {
-      width: auto; /* 图片宽度自适应 */
-      height: auto; /* 高度自适应 */
-      max-width: 270px; /* 限制图片最大宽度 */
-      object-fit: contain; /* 保持图片比例 */
+
+    .top-row > div {
+      width: 100%;
     }
-    .boxmine div {
-      width: 100%; /* 每个部分占据100%的宽度 */
+
+    .top-row img {
+      width: auto;
+      height: auto;
+      max-width: 270px;
+      object-fit: contain;
     }
   }
 </style>
