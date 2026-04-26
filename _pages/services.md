@@ -23,7 +23,8 @@ Conference Committee
 
 Journal
 <ul>
-<li>Associate Editor of <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition (一区Top, CCF B).</a></li>
+<li>Associate Editor of <a href="https://www.sciencedirect.com/journal/pattern-recognition">Pattern Recognition (CAS Rank Q1, JCR Q1, CCF B).</a></li>
+<li>Youth Editorial Board Member of <a href="https://tis.hrbeu.edu.cn/">CAAI Transactions on Intelligent Systems（CAAI TIS) (CCF T2).</a></li>
 <li>Reviewer of <a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing">IEEE Transactions on Image Processing</a></li>
 <li>Reviewer of <a href="https://cis.ieee.org/publications/t-neural-networks-and-learning-systems">IEEE Transactions on Neural Networks and Learning Systems</a></li>
 <li>Reviewer of <a href="https://ieee-cas.org/publication/tcsvt">IEEE Transactions on Circuits and Systems for Video Technology</a></li>
