@@ -157,7 +157,7 @@ My research interests revolve around machine learning and its applications. Rela
             05/2026:
           </td>
           <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
-            One pape was accepted by <strong>International Conference on Machine Learning (ICML 2026)</strong>. Congrats to Yuan (Undergraduate Student)!
+            One paper was accepted by <strong>International Conference on Machine Learning (ICML 2026)</strong>. Congrats to Yuan (Undergraduate Student)!
           </td>
         </tr>
   
