@@ -151,7 +151,12 @@ My research interests revolve around machine learning and its applications. Rela
       style="width: 100%; text-align: justify; border-spacing: 0; border-collapse: collapse;"
     >
       <tbody>
-
+  <tr>
+          <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">06/2026: </td>
+          <td style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
+            I am deeply honored to be invited to join the Early Career Editorial Board for <strong>Artificial Intelligence and Applications </strong>.
+          </td>
+  </tr>
   <tr>
           <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
             05/2026:
@@ -177,7 +182,7 @@ My research interests revolve around machine learning and its applications. Rela
             I am deeply honored to be invited to serve as an Associate Editor for <strong>Pattern Recognition (CAS Rank Q1, JCR Q1, CCF B)</strong>.
           </td>
         </tr>
-  
+
     <tr>
           <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
             01/2026:
