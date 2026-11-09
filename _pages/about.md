@@ -151,7 +151,6 @@ My research interests revolve around machine learning and its applications. Rela
       style="width: 100%; text-align: justify; border-spacing: 0; border-collapse: collapse;"
     >
       <tbody>
-
   <tr>
           <td width="50" style="text-align: justify; padding: 4px 8px; line-height: 1.4;">
             11/2026:
