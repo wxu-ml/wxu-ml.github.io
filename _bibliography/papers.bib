@@ -1,13 +1,24 @@
 ---
 ---
+@article{luo2026mvsl,
+  title={Multi-View Synergistic Learning with Vision-Language Adaption for Low-Resource Biomedical Image Classification},
+  author={Xiaoliu Luo and Minxue Xiao and Ting Xie and Mengzhu Wang and Huiqing Qi and Joey Tianyi Zhou and Taiping Zhang and Xu Wang*},
+  abstract={Accurate biomedical image classification under low-resource conditions remains challenging due to limited annotations, subtle inter-class visual differences, and complex disease semantics. While vision--language models offer a promising foundation for mitigating data scarcity, their effective adaptation in biomedical settings is constrained by the need for parameter-efficient tuning alongside fine-grained and semantically consistent representation learning. In this work, we propose Multi-View Synergistic Learning (MVSL), a unified framework that addresses these challenges by jointly considering adaptation paradigms, representation granularity, and disease semantic relationships. MVSL decouples the adaptation of visual and textual encoders to respect their distinct representational characteristics, enabling more stable and effective parameter-efficient fine-tuning. It further introduces multi-granularity contrastive learning to explicitly model both global image semantics and localized lesion-level evidence, improving fine-grained discrimination for visually similar disease categories. In addition, MVSL preserves disease-level semantic structure by incorporating structured supervision derived from large language models, which constrains textual representations at the class level and indirectly regularizes visual embeddings through cross-modal alignment. Together, these components enable more stable cross-modal alignment and improved discrimination under limited supervision. Extensive experiments on 11 public biomedical datasets spanning 9 imaging modalities and 10 anatomical regions demonstrate that MVSL consistently outperforms state-of-the-art methods in few-shot and zero-shot classification settings.},
+  journal={IEEE Transactions on Image Processing},
+  abbr={IEEE TIP},
+  year={2026},
+  publisher={IEEE},
+  code={https://github.com/luoxiaoliu/MVSL},
+  html={}
+}
 @inproceedings{guo2026CFR,
   title={Remove the Ambiguity: Few-shot Multimodal Anomaly Detection Using Crossmodal Feature Replacers},
   author={Yuan Guo and Wanqi Zhang and Xu Wang*},
   booktitle={International Conference on Machine Learning},
   year={2026},
   abbr={ICML},
-  html={},
-  code={},
+  html={https://proceedings.mlr.press/v306/guo26ai.html},
+  code={https://github.com/Yuan-Honoka-Guo/CFR},
   abstract = {A key challenge in reconstruction-based multimodal anomaly detection is the one-to-many crossmodal mapping problem: a single 3D feature may correspond to multiple plausible RGB appearances, causing deterministic crossmodal regression to collapse valid targets into over-smoothed reconstructions and thereby weaken anomaly discrimination. In this paper, we propose \emph{Crossmodal Feature Replacer} (CFR), a self-supervised framework that addresses this failure mode through selective inference-time feature replacement. CFR first learns bidirectional cyclic mappings for coarse crossmodal reconstruction, then identifies unreliable reconstructed features and selectively replaces them with high-confidence normal features to correct ambiguity-induced reconstruction failures. Extensive experiments on MVTec 3D-AD and Eyecandies under few-shot settings show that CFR consistently outperforms prior methods. In the challenging 1-shot setting, CFR achieves AUPRO@30\% FPR of 92.3 and 82.7, and image-level AUROC of 74.2 and 75.9, on MVTec 3D-AD and Eyecandies, respectively.}
 }
 @inproceedings{li2026GenPromptCL,
